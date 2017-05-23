@@ -1,0 +1,708 @@
+
+/* Class = "UILabel"; text = "ชื่อ"; ObjectID = "06x-56-avr"; */
+"06x-56-avr.text" = "ชื่อ";
+
+/* Class = "UILabel"; text = "ตำแหน่งงานที่สนใจ"; ObjectID = "0eC-k9-22T"; */
+"0eC-k9-22T.text" = "ตำแหน่งงานที่สนใจ";
+
+/* Class = "UINavigationItem"; title = "ค้นหางาน"; ObjectID = "0rL-5F-Y6Y"; */
+"0rL-5F-Y6Y.title" = "ค้นหางาน";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "0y5-By-mN9"; */
+"0y5-By-mN9.text" = "Label";
+
+/* Class = "UILabel"; text = "เงินเดือน"; ObjectID = "1Y3-YV-wap"; */
+"1Y3-YV-wap.text" = "เงินเดือน";
+
+/* Class = "UILabel"; text = "กรุณารอสักครู่"; ObjectID = "23x-uQ-PM8"; */
+"23x-uQ-PM8.text" = "กรุณารอสักครู่";
+
+/* Class = "UIBarButtonItem"; title = "Back"; ObjectID = "2AS-hi-4Iw"; */
+"2AS-hi-4Iw.title" = "Back";
+
+/* Class = "UILabel"; text = "เพศ"; ObjectID = "2Cg-dp-6IQ"; */
+"2Cg-dp-6IQ.text" = "เพศ";
+
+/* Class = "UITextField"; placeholder = "วุฒิการศึกษาขั้นต้น"; ObjectID = "2bT-sJ-UCk"; */
+"2bT-sJ-UCk.placeholder" = "วุฒิการศึกษาขั้นต้น";
+
+/* Class = "UILabel"; text = "กรุณารอสักครู่"; ObjectID = "2lA-z9-8dQ"; */
+"2lA-z9-8dQ.text" = "กรุณารอสักครู่";
+
+/* Class = "UILabel"; text = "ตำแหน่งงาน"; ObjectID = "3UH-uj-wtS"; */
+"3UH-uj-wtS.text" = "ตำแหน่งงาน";
+
+/* Class = "UILabel"; text = ":"; ObjectID = "3e1-9f-so8"; */
+"3e1-9f-so8.text" = ":";
+
+/* Class = "UILabel"; text = "กรุณารอสักครู่"; ObjectID = "3oq-JY-5n1"; */
+"3oq-JY-5n1.text" = "กรุณารอสักครู่";
+
+/* Class = "UITextField"; placeholder = "ข้อความ 140 ตัวอักษร"; ObjectID = "3wN-ls-163"; */
+"3wN-ls-163.placeholder" = "ข้อความ 140 ตัวอักษร";
+
+/* Class = "UINavigationItem"; title = "งานใหม่ล่าสุด"; ObjectID = "41F-tP-quo"; */
+"41F-tP-quo.title" = "งานใหม่ล่าสุด";
+
+/* Class = "UILabel"; text = "ของกรมจัดหางาน"; ObjectID = "5Sx-FA-fKH"; */
+"5Sx-FA-fKH.text" = "ของกรมจัดหางาน";
+
+/* Class = "UILabel"; text = ":"; ObjectID = "5ot-OJ-pon"; */
+"5ot-OJ-pon.text" = ":";
+
+/* Class = "UILabel"; text = "ผ่าน SmartJob Mobile Application"; ObjectID = "62R-rU-GcA"; */
+"62R-rU-GcA.text" = "ผ่าน SmartJob Mobile Application";
+
+/* Class = "UITextField"; placeholder = "ประเภทงาน"; ObjectID = "66q-pF-10X"; */
+"66q-pF-10X.placeholder" = "ประเภทงาน";
+
+/* Class = "UINavigationItem"; title = "รายละเอียดงาน"; ObjectID = "6NF-Su-MTR"; */
+"6NF-Su-MTR.title" = "รายละเอียดงาน";
+
+/* Class = "UILabel"; text = ":"; ObjectID = "6O7-bA-uUu"; */
+"6O7-bA-uUu.text" = ":";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "6OR-eG-9Pb"; */
+"6OR-eG-9Pb.text" = "Label";
+
+/* Class = "UILabel"; text = "dd/mm/yyyy"; ObjectID = "71M-Wq-dtQ"; */
+"71M-Wq-dtQ.text" = "dd/mm/yyyy";
+
+/* Class = "UIBarButtonItem"; title = "Back"; ObjectID = "7AI-Zj-6kv"; */
+"7AI-Zj-6kv.title" = "Back";
+
+/* Class = "UILabel"; text = "บริษัท XXX จำกัด"; ObjectID = "7q7-2U-zhu"; */
+"7q7-2U-zhu.text" = "บริษัท XXX จำกัด";
+
+/* Class = "UITextField"; placeholder = "รหัสผ่าน"; ObjectID = "8Jm-HX-Fer"; */
+"8Jm-HX-Fer.placeholder" = "รหัสผ่าน";
+
+/* Class = "UILabel"; text = "เพศ"; ObjectID = "8Xh-GA-IQR"; */
+"8Xh-GA-IQR.text" = "เพศ";
+
+/* Class = "UITextField"; placeholder = "รหัสผู้ใช้งาน"; ObjectID = "8au-xZ-S6a"; */
+"8au-xZ-S6a.placeholder" = "รหัสผู้ใช้งาน";
+
+/* Class = "UILabel"; text = "จังหวัดที่ทำงาน"; ObjectID = "8nt-Ct-nV0"; */
+"8nt-Ct-nV0.text" = "จังหวัดที่ทำงาน";
+
+/* Class = "UILabel"; text = "จังหวัดที่ทำงาน"; ObjectID = "9H8-Pt-j2c"; */
+"9H8-Pt-j2c.text" = "จังหวัดที่ทำงาน";
+
+/* Class = "UILabel"; text = ":"; ObjectID = "9YC-tr-4V5"; */
+"9YC-tr-4V5.text" = ":";
+
+/* Class = "UILabel"; text = "เข้าสู่ระบบจัดหางาน"; ObjectID = "A3J-EH-f6G"; */
+"A3J-EH-f6G.text" = "เข้าสู่ระบบจัดหางาน";
+
+/* Class = "UILabel"; text = "กรุณารอสักครู่"; ObjectID = "AaC-Ij-4fr"; */
+"AaC-Ij-4fr.text" = "กรุณารอสักครู่";
+
+/* Class = "UILabel"; text = "กรุณารอสักครู่"; ObjectID = "BcF-hx-j0m"; */
+"BcF-hx-j0m.text" = "กรุณารอสักครู่";
+
+/* Class = "UILabel"; text = "ยินดีต้อนรับ"; ObjectID = "BvJ-n5-aZc"; */
+"BvJ-n5-aZc.text" = "ยินดีต้อนรับ";
+
+/* Class = "UIBarButtonItem"; title = "Back"; ObjectID = "CW0-8d-wH0"; */
+"CW0-8d-wH0.title" = "Back";
+
+/* Class = "UILabel"; text = ":"; ObjectID = "CqI-JS-yaa"; */
+"CqI-JS-yaa.text" = ":";
+
+/* Class = "UITextField"; placeholder = "พิมพ์ตำแหน่งงาน"; ObjectID = "DDM-y7-vvs"; */
+"DDM-y7-vvs.placeholder" = "พิมพ์ตำแหน่งงาน";
+
+/* Class = "UILabel"; text = ":"; ObjectID = "EGP-xR-0VX"; */
+"EGP-xR-0VX.text" = ":";
+
+/* Class = "UILabel"; text = ":"; ObjectID = "ER5-a0-uPN"; */
+"ER5-a0-uPN.text" = ":";
+
+/* Class = "UILabel"; text = "กรุณารอสักครู่"; ObjectID = "EeU-wI-kvn"; */
+"EeU-wI-kvn.text" = "กรุณารอสักครู่";
+
+/* Class = "UILabel"; text = "ปรับปรุงข้อมูล"; ObjectID = "FLc-dh-i4C"; */
+"FLc-dh-i4C.text" = "ปรับปรุงข้อมูล";
+
+/* Class = "UILabel"; text = "dd/mm/yyyy"; ObjectID = "FPS-7G-H3I"; */
+"FPS-7G-H3I.text" = "dd/mm/yyyy";
+
+/* Class = "UITextField"; placeholder = "เพศ"; ObjectID = "FYO-Tr-oNn"; */
+"FYO-Tr-oNn.placeholder" = "เพศ";
+
+/* Class = "UILabel"; text = "ของกรมการจัดหางาน"; ObjectID = "FqQ-jq-gKR"; */
+"FqQ-jq-gKR.text" = "ของกรมการจัดหางาน";
+
+/* Class = "UILabel"; text = "อัตราLB"; ObjectID = "FwX-ke-e5r"; */
+"FwX-ke-e5r.text" = "อัตราLB";
+
+/* Class = "UILabel"; text = "ประสบการณ์"; ObjectID = "G62-Uq-SKW"; */
+"G62-Uq-SKW.text" = "ประสบการณ์";
+
+/* Class = "UILabel"; text = "คุณ xxx"; ObjectID = "G6P-Rr-ud0"; */
+"G6P-Rr-ud0.text" = "คุณ xxx";
+
+/* Class = "UIBarButtonItem"; title = "Back"; ObjectID = "G9a-h1-bHr"; */
+"G9a-h1-bHr.title" = "Back";
+
+/* Class = "UIBarButtonItem"; title = "Back"; ObjectID = "Gnb-xJ-K66"; */
+"Gnb-xJ-K66.title" = "Back";
+
+/* Class = "UILabel"; text = ":"; ObjectID = "HID-CT-hmG"; */
+"HID-CT-hmG.text" = ":";
+
+/* Class = "UILabel"; text = "เพศ"; ObjectID = "Ha1-T3-mfr"; */
+"Ha1-T3-mfr.text" = "เพศ";
+
+/* Class = "UILabel"; text = "ประสบการณ์ทำงาน"; ObjectID = "Hqn-Ct-ezU"; */
+"Hqn-Ct-ezU.text" = "ประสบการณ์ทำงาน";
+
+/* Class = "UILabel"; text = "คุณสมัครงานนี้แล้ว"; ObjectID = "I27-SB-wbX"; */
+"I27-SB-wbX.text" = "คุณสมัครงานนี้แล้ว";
+
+/* Class = "UILabel"; text = "ประสบการณ์ทำงาน"; ObjectID = "IEc-8a-zEi"; */
+"IEc-8a-zEi.text" = "ประสบการณ์ทำงาน";
+
+/* Class = "UILabel"; text = "ถึง"; ObjectID = "Ix0-UG-b1t"; */
+"Ix0-UG-b1t.text" = "ถึง";
+
+/* Class = "UILabel"; text = "บริษัท"; ObjectID = "J0z-B7-N7u"; */
+"J0z-B7-N7u.text" = "บริษัท";
+
+/* Class = "UILabel"; text = "ผ่าน SmartJob Mobile Application"; ObjectID = "JMB-Sn-xom"; */
+"JMB-Sn-xom.text" = "ผ่าน SmartJob Mobile Application";
+
+/* Class = "UIButton"; normalTitle = "ส่ง"; ObjectID = "JbS-se-QmN"; */
+"JbS-se-QmN.normalTitle" = "ส่ง";
+
+/* Class = "UILabel"; text = "หาคน - Login"; ObjectID = "Jvh-Of-BX7"; */
+"Jvh-Of-BX7.text" = "หาคน - Login";
+
+/* Class = "UILabel"; text = "เพศ"; ObjectID = "K2S-Q0-h4x"; */
+"K2S-Q0-h4x.text" = "เพศ";
+
+/* Class = "UILabel"; text = "กรุณารอสักครู่"; ObjectID = "K8e-s4-GNT"; */
+"K8e-s4-GNT.text" = "กรุณารอสักครู่";
+
+/* Class = "UINavigationItem"; title = "เข้าสู่ระบบ"; ObjectID = "KEY-QF-HZK"; */
+"KEY-QF-HZK.title" = "เข้าสู่ระบบ";
+
+/* Class = "UIButton"; normalTitle = "ส่ง"; ObjectID = "KK9-ng-sdd"; */
+"KK9-ng-sdd.normalTitle" = "ส่ง";
+
+/* Class = "UILabel"; text = "วุฒิการศึกษา"; ObjectID = "KXx-AL-dC3"; */
+"KXx-AL-dC3.text" = "วุฒิการศึกษา";
+
+/* Class = "UILabel"; text = "กรุณารอสักครู่"; ObjectID = "KjL-bB-MeH"; */
+"KjL-bB-MeH.text" = "กรุณารอสักครู่";
+
+/* Class = "UILabel"; text = "ของกรมจัดหางาน"; ObjectID = "KqC-Sq-YAL"; */
+"KqC-Sq-YAL.text" = "ของกรมจัดหางาน";
+
+/* Class = "UITextField"; placeholder = "สาขาวิชา"; ObjectID = "LLS-Fj-Xx7"; */
+"LLS-Fj-Xx7.placeholder" = "สาขาวิชา";
+
+/* Class = "UILabel"; text = ":"; ObjectID = "Lz4-p6-BPK"; */
+"Lz4-p6-BPK.text" = ":";
+
+/* Class = "UIBarButtonItem"; title = "Back"; ObjectID = "MIr-xv-iuL"; */
+"MIr-xv-iuL.title" = "Back";
+
+/* Class = "UINavigationItem"; title = "ค้นหางานแบบพิเศษ"; ObjectID = "MYP-R6-eG0"; */
+"MYP-R6-eG0.title" = "ค้นหางานแบบพิเศษ";
+
+/* Class = "UILabel"; text = "ตำแหน่งงาน"; ObjectID = "MvT-5H-pO8"; */
+"MvT-5H-pO8.text" = "ตำแหน่งงาน";
+
+/* Class = "UILabel"; text = "ท่านสามารถส่งข้อความหานายจ้างได้เพียง 1 ครั้ง"; ObjectID = "Mx4-eA-k4q"; */
+"Mx4-eA-k4q.text" = "ท่านสามารถส่งข้อความหานายจ้างได้เพียง 1 ครั้ง";
+
+/* Class = "UILabel"; text = "กรุณารอสักครู่"; ObjectID = "N1K-dd-qPt"; */
+"N1K-dd-qPt.text" = "กรุณารอสักครู่";
+
+/* Class = "UITextView"; text = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda."; ObjectID = "N9B-Eq-qhj"; */
+"N9B-Eq-qhj.text" = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.";
+
+/* Class = "UINavigationItem"; title = "เข้าสู่ระบบ"; ObjectID = "NrF-H8-NrQ"; */
+"NrF-H8-NrQ.title" = "เข้าสู่ระบบ";
+
+/* Class = "UITextField"; placeholder = "รหัสผู้ใช้งาน"; ObjectID = "Nww-sq-9dQ"; */
+"Nww-sq-9dQ.placeholder" = "รหัสผู้ใช้งาน";
+
+/* Class = "UILabel"; text = "เงินเดือน"; ObjectID = "O0G-4X-hPi"; */
+"O0G-4X-hPi.text" = "เงินเดือน";
+
+/* Class = "UILabel"; text = "Employer"; ObjectID = "O0O-WG-tId"; */
+"O0O-WG-tId.text" = "Employer";
+
+/* Class = "UILabel"; text = ":"; ObjectID = "OHM-wN-PXP"; */
+"OHM-wN-PXP.text" = ":";
+
+/* Class = "UITextField"; placeholder = "วุฒิการศึกษา"; ObjectID = "PAc-vD-rdo"; */
+"PAc-vD-rdo.placeholder" = "วุฒิการศึกษา";
+
+/* Class = "UITextView"; text = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut "; ObjectID = "PFZ-1q-yEo"; */
+"PFZ-1q-yEo.text" = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut ";
+
+/* Class = "UITextView"; text = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "; ObjectID = "PSe-7q-Q3b"; */
+"PSe-7q-Q3b.text" = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ";
+
+/* Class = "UILabel"; text = "จังหวัดที่ทำงาน"; ObjectID = "PfJ-Gn-JvQ"; */
+"PfJ-Gn-JvQ.text" = "จังหวัดที่ทำงาน";
+
+/* Class = "UILabel"; text = "วันเกิด"; ObjectID = "Pit-2m-rNA"; */
+"Pit-2m-rNA.text" = "วันเกิด";
+
+/* Class = "UITextField"; placeholder = "จังหวัดที่ทำงาน"; ObjectID = "Q79-mv-Esc"; */
+"Q79-mv-Esc.placeholder" = "จังหวัดที่ทำงาน";
+
+/* Class = "UITextField"; placeholder = "ชื่อ"; ObjectID = "QAV-sC-aTw"; */
+"QAV-sC-aTw.placeholder" = "ชื่อ";
+
+/* Class = "UILabel"; text = "กรุณารอสักครู่"; ObjectID = "QCL-tZ-pAH"; */
+"QCL-tZ-pAH.text" = "กรุณารอสักครู่";
+
+/* Class = "UITextView"; text = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "; ObjectID = "QQG-Di-uHw"; */
+"QQG-Di-uHw.text" = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ";
+
+/* Class = "UILabel"; text = "อัตรา"; ObjectID = "Qap-e2-KiG"; */
+"Qap-e2-KiG.text" = "อัตรา";
+
+/* Class = "UILabel"; text = "จังหวัดที่ทำงาน"; ObjectID = "QcZ-0Z-vSf"; */
+"QcZ-0Z-vSf.text" = "จังหวัดที่ทำงาน";
+
+/* Class = "UILabel"; text = "กรุณารอสักครู่"; ObjectID = "Qkt-zE-cUh"; */
+"Qkt-zE-cUh.text" = "กรุณารอสักครู่";
+
+/* Class = "UITextField"; placeholder = "เพศ"; ObjectID = "QyD-JP-b63"; */
+"QyD-JP-b63.placeholder" = "เพศ";
+
+/* Class = "UILabel"; text = "วันทำงาน"; ObjectID = "Qyz-NB-ezJ"; */
+"Qyz-NB-ezJ.text" = "วันทำงาน";
+
+/* Class = "UILabel"; text = "จำนวนผู้สมัคร"; ObjectID = "RNR-qk-IM5"; */
+"RNR-qk-IM5.text" = "จำนวนผู้สมัคร";
+
+/* Class = "UILabel"; text = "ข้อความ"; ObjectID = "RQ8-Rv-Rfl"; */
+"RQ8-Rv-Rfl.text" = "ข้อความ";
+
+/* Class = "UILabel"; text = "ลักษณะงาน"; ObjectID = "RwI-c6-Ipk"; */
+"RwI-c6-Ipk.text" = "ลักษณะงาน";
+
+/* Class = "UITextField"; placeholder = "ชื่อตำแหน่งงาน , คำค้น"; ObjectID = "Ryx-u7-2QR"; */
+"Ryx-u7-2QR.placeholder" = "ชื่อตำแหน่งงาน , คำค้น";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "S0f-jU-TfH"; */
+"S0f-jU-TfH.text" = "Label";
+
+/* Class = "UILabel"; text = "สาขาวิชา"; ObjectID = "S6f-Vk-Amm"; */
+"S6f-Vk-Amm.text" = "สาขาวิชา";
+
+/* Class = "UILabel"; text = "ประเภทงาน"; ObjectID = "SIJ-8s-rdQ"; */
+"SIJ-8s-rdQ.text" = "ประเภทงาน";
+
+/* Class = "UILabel"; text = "หางาน - Login"; ObjectID = "SPf-vc-ldH"; */
+"SPf-vc-ldH.text" = "หางาน - Login";
+
+/* Class = "UITextView"; text = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda."; ObjectID = "SgJ-GQ-Clw"; */
+"SgJ-GQ-Clw.text" = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.";
+
+/* Class = "UITextField"; placeholder = "พิมพ์ชื่อตำแหน่งตามมาตรฐานอาชีพ"; ObjectID = "T02-VX-H20"; */
+"T02-VX-H20.placeholder" = "พิมพ์ชื่อตำแหน่งตามมาตรฐานอาชีพ";
+
+/* Class = "UIBarButtonItem"; title = "Logout"; ObjectID = "T0A-PU-HTr"; */
+"T0A-PU-HTr.title" = "Logout";
+
+/* Class = "UILabel"; text = "ยินดีต้อนรับ"; ObjectID = "T0L-SJ-kTn"; */
+"T0L-SJ-kTn.text" = "ยินดีต้อนรับ";
+
+/* Class = "UILabel"; text = "ประเภทงาน"; ObjectID = "TDw-Ra-o2g"; */
+"TDw-Ra-o2g.text" = "ประเภทงาน";
+
+/* Class = "UILabel"; text = ":"; ObjectID = "TEx-TG-Cd5"; */
+"TEx-TG-Cd5.text" = ":";
+
+/* Class = "UILabel"; text = "สาขา yyy"; ObjectID = "TYm-H9-t6a"; */
+"TYm-H9-t6a.text" = "สาขา yyy";
+
+/* Class = "UILabel"; text = "ข้อกำหนดและเงื่อนไข"; ObjectID = "Tro-Ad-cul"; */
+"Tro-Ad-cul.text" = "ข้อกำหนดและเงื่อนไข";
+
+/* Class = "UILabel"; text = "ตำแหน่งงาน"; ObjectID = "UG6-dm-tht"; */
+"UG6-dm-tht.text" = "ตำแหน่งงาน";
+
+/* Class = "UILabel"; text = "เงินเดือน"; ObjectID = "UXx-Tb-goA"; */
+"UXx-Tb-goA.text" = "เงินเดือน";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "V81-NM-yhj"; */
+"V81-NM-yhj.text" = "Label";
+
+/* Class = "UILabel"; text = "กรุณารอสักครู่"; ObjectID = "VhQ-iI-PWa"; */
+"VhQ-iI-PWa.text" = "กรุณารอสักครู่";
+
+/* Class = "UILabel"; text = ":"; ObjectID = "Vhs-Yi-Gcm"; */
+"Vhs-Yi-Gcm.text" = ":";
+
+/* Class = "UITextField"; placeholder = "รหัสผ่าน"; ObjectID = "W3g-T9-2El"; */
+"W3g-T9-2El.placeholder" = "รหัสผ่าน";
+
+/* Class = "UILabel"; text = "เพศ"; ObjectID = "WZt-f9-U6e"; */
+"WZt-f9-U6e.text" = "เพศ";
+
+/* Class = "UILabel"; text = ":"; ObjectID = "Wxw-UR-KRk"; */
+"Wxw-UR-KRk.text" = ":";
+
+/* Class = "UINavigationItem"; title = "ลงทะเบียน"; ObjectID = "XPf-bE-u9Q"; */
+"XPf-bE-u9Q.title" = "ลงทะเบียน";
+
+/* Class = "UILabel"; text = "วุฒิการศึกษา"; ObjectID = "XQx-Sc-bbU"; */
+"XQx-Sc-bbU.text" = "วุฒิการศึกษา";
+
+/* Class = "UITextField"; placeholder = "หมายเลขโทรศัพท์ติดต่อ"; ObjectID = "Xoh-eV-hMy"; */
+"Xoh-eV-hMy.placeholder" = "หมายเลขโทรศัพท์ติดต่อ";
+
+/* Class = "UIBarButtonItem"; title = "Back"; ObjectID = "XxN-Iu-BJH"; */
+"XxN-Iu-BJH.title" = "Back";
+
+/* Class = "UILabel"; text = "วุฒการศึกษา"; ObjectID = "Y60-Y7-55Q"; */
+"Y60-Y7-55Q.text" = "วุฒการศึกษา";
+
+/* Class = "UITextField"; placeholder = "จังหวัดที่ทำงาน"; ObjectID = "YCr-VC-SDw"; */
+"YCr-VC-SDw.placeholder" = "จังหวัดที่ทำงาน";
+
+/* Class = "UILabel"; text = "วุฒิการศึกษา"; ObjectID = "YlE-Y6-q8t"; */
+"YlE-Y6-q8t.text" = "วุฒิการศึกษา";
+
+/* Class = "UILabel"; text = "เงินเดือน"; ObjectID = "Yvf-Br-UaV"; */
+"Yvf-Br-UaV.text" = "เงินเดือน";
+
+/* Class = "UITextField"; placeholder = "คำหน้าชื่อ"; ObjectID = "Zb4-kE-HTS"; */
+"Zb4-kE-HTS.placeholder" = "คำหน้าชื่อ";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Zdg-ca-aaA"; */
+"Zdg-ca-aaA.text" = "Label";
+
+/* Class = "UILabel"; text = "ปี"; ObjectID = "Zoz-3U-JZb"; */
+"Zoz-3U-JZb.text" = "ปี";
+
+/* Class = "UILabel"; text = "สวัสดิการ"; ObjectID = "a45-oL-wGq"; */
+"a45-oL-wGq.text" = "สวัสดิการ";
+
+/* Class = "UILabel"; text = "คุณ xxx"; ObjectID = "aLr-eZ-hWE"; */
+"aLr-eZ-hWE.text" = "คุณ xxx";
+
+/* Class = "UILabel"; text = ":"; ObjectID = "aaT-JF-yth"; */
+"aaT-JF-yth.text" = ":";
+
+/* Class = "UIBarButtonItem"; title = "Back"; ObjectID = "abX-iz-cBW"; */
+"abX-iz-cBW.title" = "Back";
+
+/* Class = "UILabel"; text = "สามารถลงทะเบียนได้ที่ smartjob.doe.go.th"; ObjectID = "ad9-9n-Qdq"; */
+"ad9-9n-Qdq.text" = "สามารถลงทะเบียนได้ที่ smartjob.doe.go.th";
+
+/* Class = "UILabel"; text = ":"; ObjectID = "azx-rA-COE"; */
+"azx-rA-COE.text" = ":";
+
+/* Class = "UITextField"; placeholder = "เลขที่บัตรประชาชน"; ObjectID = "b9a-ab-ReS"; */
+"b9a-ab-ReS.placeholder" = "เลขที่บัตรประชาชน";
+
+/* Class = "UIBarButtonItem"; title = "Back"; ObjectID = "bKj-VY-2ea"; */
+"bKj-VY-2ea.title" = "Back";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "bLO-tz-iA7"; */
+"bLO-tz-iA7.text" = "Label";
+
+/* Class = "UINavigationItem"; title = "ผู้สมัครงานเข้ามา"; ObjectID = "c5r-Ak-glN"; */
+"c5r-Ak-glN.title" = "ผู้สมัครงานเข้ามา";
+
+/* Class = "UITextField"; placeholder = "เลือกสาขา"; ObjectID = "cDk-q6-DUP"; */
+"cDk-q6-DUP.placeholder" = "เลือกสาขา";
+
+/* Class = "UITextField"; placeholder = "รหัสผู้ใช้งาน"; ObjectID = "cGu-xs-k1w"; */
+"cGu-xs-k1w.placeholder" = "รหัสผู้ใช้งาน";
+
+/* Class = "UILabel"; text = "อัตรา"; ObjectID = "cQh-Ht-ggq"; */
+"cQh-Ht-ggq.text" = "อัตรา";
+
+/* Class = "UITextField"; placeholder = "วันเกิด"; ObjectID = "cXW-Ua-Nm6"; */
+"cXW-Ua-Nm6.placeholder" = "วันเกิด";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "cmb-8s-6Vz"; */
+"cmb-8s-6Vz.text" = "Label";
+
+/* Class = "UILabel"; text = "วุฒิการศึกษา"; ObjectID = "cpW-zp-ePi"; */
+"cpW-zp-ePi.text" = "วุฒิการศึกษา";
+
+/* Class = "UILabel"; text = ":"; ObjectID = "cv0-HG-Y9x"; */
+"cv0-HG-Y9x.text" = ":";
+
+/* Class = "UITextView"; text = "๑.การฝากประวัติเพื่อหางานทาง smartjob mobile \n๒.การฝากประวัติของคนหางานต้องกรอกข้อมูลรายละเอียดต่างๆ ตามจริงให้ครบถ้วน ทั้งนี้ เพื่อประโยชน์ต่อตัวท่านเอง\n๓.หากพบว่าข้อมูลของท่านไม่เป็นความจริง เจ้าหน้าที่จะระงับการใช้งานโดยไม่ต้องแจ้งให้ท่านทราบล่วงหน้า\n๔.เมื่อท่านทำการลงทะเบียนแล้ว ท่านจะได้รับ Username และ Password เพื่อเข้าใช้งาน Smartjob Mobile\n๕.ท่านสามารถใช้ Username และ Password ของท่าน เพื่อ Login เพื่อเข้าSmartjob Mobile และทำการเพิ่มเติมข้อมูลที่ใช้ในการสมัครงานได้ทันที\n๖.คนหางานสามารถแก้ไขประวัติได้ตลอด ๒๔ ชั่วโมง ผ่าน Smartjob Mobile\n๗.กรณีท่านไม่ได้ Login เข้าสู่ระบบเป็นระยะเวลาเกิน ๖ เดือน นับจากการ Login ครั้งสุดท้าย ข้อมูลการสมัครงานของท่านจะถูกระงับการเผยแพร่ให้กับนายจ้างจนกว่าท่านจะ Login เข้าระบบใหม่\n๘.การเปิดเผยข้อมูลของท่าน ระบบจะตั้งค่าเริ่มต้น (Set Default) ไว้ที่ยินยอมเปิดเผยข้อมูล โดยที่ประวัติของท่านจะถูกปกปิดเป็นความลับ จะมีเพียงสถานประกอบการที่ลงทะเบียนถูกต้อง และมีตำแหน่งงานว่างที่ประกาศไว้ตรงตามคุณสมบัติของท่านแล้วเท่านั้น จึงจะสามารถดูประวัติข้อมูลของท่านได้\n๙.หากผู้สมัครงานแก้ไขข้อมูลการเปิดเผยข้อมูลในระบบเป็นไม่ยินยอมเปิดเผยข้อมูล ท่านยังสามารถค้นหาตำแหน่งงานว่างและสมัครงานผ่าน Smartjob Mobile ได้ แต่นายจ้างจะไม่สามารถเห็นประวัติของท่าน\nคำเตือน\nการหางานผ่านระบบบริการจัดหางานในประเทศผ่าน  Mobile Application ของกรมการจัดหางานเป็นการให้บริการโดยไม่คิดค่าใช้จ่ายใดๆ ทั้งสิ้น เนื่องจากเป็นบริการของรัฐสำหรับผู้ที่ต้องการหางาน ดังนั้น หากมีสถานประกอบการใดเรียกเก็บค่าใช้จ่ายจากผู้ใช้ระบบ หรือพบสถานประกอบการมีพฤติกรรมเป็นนายหน้าหางาน โปรดแจ้งกรมการจัดหางาน สายด่วน ๑๖๙๔\nหากต้องการใช้บริการระบบบริการจัดหางานในประเทศ ผ่านคอมพิวเตอร์สามารถเข้าใช้งานได้ที่ http://www.doe.go.th  หรือ  http://smartjob.doe.go.th"; ObjectID = "cwu-Ml-Ipw"; */
+"cwu-Ml-Ipw.text" = "๑.การฝากประวัติเพื่อหางานทาง smartjob mobile \n๒.การฝากประวัติของคนหางานต้องกรอกข้อมูลรายละเอียดต่างๆ ตามจริงให้ครบถ้วน ทั้งนี้ เพื่อประโยชน์ต่อตัวท่านเอง\n๓.หากพบว่าข้อมูลของท่านไม่เป็นความจริง เจ้าหน้าที่จะระงับการใช้งานโดยไม่ต้องแจ้งให้ท่านทราบล่วงหน้า\n๔.เมื่อท่านทำการลงทะเบียนแล้ว ท่านจะได้รับ Username และ Password เพื่อเข้าใช้งาน Smartjob Mobile\n๕.ท่านสามารถใช้ Username และ Password ของท่าน เพื่อ Login เพื่อเข้าSmartjob Mobile และทำการเพิ่มเติมข้อมูลที่ใช้ในการสมัครงานได้ทันที\n๖.คนหางานสามารถแก้ไขประวัติได้ตลอด ๒๔ ชั่วโมง ผ่าน Smartjob Mobile\n๗.กรณีท่านไม่ได้ Login เข้าสู่ระบบเป็นระยะเวลาเกิน ๖ เดือน นับจากการ Login ครั้งสุดท้าย ข้อมูลการสมัครงานของท่านจะถูกระงับการเผยแพร่ให้กับนายจ้างจนกว่าท่านจะ Login เข้าระบบใหม่\n๘.การเปิดเผยข้อมูลของท่าน ระบบจะตั้งค่าเริ่มต้น (Set Default) ไว้ที่ยินยอมเปิดเผยข้อมูล โดยที่ประวัติของท่านจะถูกปกปิดเป็นความลับ จะมีเพียงสถานประกอบการที่ลงทะเบียนถูกต้อง และมีตำแหน่งงานว่างที่ประกาศไว้ตรงตามคุณสมบัติของท่านแล้วเท่านั้น จึงจะสามารถดูประวัติข้อมูลของท่านได้\n๙.หากผู้สมัครงานแก้ไขข้อมูลการเปิดเผยข้อมูลในระบบเป็นไม่ยินยอมเปิดเผยข้อมูล ท่านยังสามารถค้นหาตำแหน่งงานว่างและสมัครงานผ่าน Smartjob Mobile ได้ แต่นายจ้างจะไม่สามารถเห็นประวัติของท่าน\nคำเตือน\nการหางานผ่านระบบบริการจัดหางานในประเทศผ่าน  Mobile Application ของกรมการจัดหางานเป็นการให้บริการโดยไม่คิดค่าใช้จ่ายใดๆ ทั้งสิ้น เนื่องจากเป็นบริการของรัฐสำหรับผู้ที่ต้องการหางาน ดังนั้น หากมีสถานประกอบการใดเรียกเก็บค่าใช้จ่ายจากผู้ใช้ระบบ หรือพบสถานประกอบการมีพฤติกรรมเป็นนายหน้าหางาน โปรดแจ้งกรมการจัดหางาน สายด่วน ๑๖๙๔\nหากต้องการใช้บริการระบบบริการจัดหางานในประเทศ ผ่านคอมพิวเตอร์สามารถเข้าใช้งานได้ที่ http://www.doe.go.th  หรือ  http://smartjob.doe.go.th";
+
+/* Class = "UIBarButtonItem"; title = "Back"; ObjectID = "d4V-h4-9QS"; */
+"d4V-h4-9QS.title" = "Back";
+
+/* Class = "UITextField"; placeholder = "อำเภอ"; ObjectID = "dG3-Ta-QfG"; */
+"dG3-Ta-QfG.placeholder" = "อำเภอ";
+
+/* Class = "UILabel"; text = "แสดงเฉพาะงานคนพิการ"; ObjectID = "dRz-zc-Ijv"; */
+"dRz-zc-Ijv.text" = "แสดงเฉพาะงานคนพิการ";
+
+/* Class = "UILabel"; text = "กรุณารอสักครู่"; ObjectID = "dsP-d0-tu5"; */
+"dsP-d0-tu5.text" = "กรุณารอสักครู่";
+
+/* Class = "UITextField"; placeholder = "ตำแหน่งงานที่สนใจ"; ObjectID = "e44-zh-TV6"; */
+"e44-zh-TV6.placeholder" = "ตำแหน่งงานที่สนใจ";
+
+/* Class = "UILabel"; text = "อายุระหว่าง"; ObjectID = "eJ3-Gn-e4I"; */
+"eJ3-Gn-e4I.text" = "อายุระหว่าง";
+
+/* Class = "UILabel"; text = ":"; ObjectID = "eT5-wt-oM7"; */
+"eT5-wt-oM7.text" = ":";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "eT7-FV-Ilc"; */
+"eT7-FV-Ilc.text" = "Label";
+
+/* Class = "UILabel"; text = ":"; ObjectID = "fPf-LJ-uQn"; */
+"fPf-LJ-uQn.text" = ":";
+
+/* Class = "UILabel"; text = ":"; ObjectID = "fdM-CD-nwu"; */
+"fdM-CD-nwu.text" = ":";
+
+/* Class = "UILabel"; text = "เข้าสู่ระบบจัดหางาน"; ObjectID = "fdX-jb-Cwn"; */
+"fdX-jb-Cwn.text" = "เข้าสู่ระบบจัดหางาน";
+
+/* Class = "UILabel"; text = "คุณสมัครงานนี้แล้ว"; ObjectID = "ftE-pg-A9g"; */
+"ftE-pg-A9g.text" = "คุณสมัครงานนี้แล้ว";
+
+/* Class = "UILabel"; text = "หางาน - Login"; ObjectID = "fvc-Ak-ghL"; */
+"fvc-Ak-ghL.text" = "หางาน - Login";
+
+/* Class = "UILabel"; text = "ผ่าน SmartJob Mobile Application"; ObjectID = "gKR-iN-Ata"; */
+"gKR-iN-Ata.text" = "ผ่าน SmartJob Mobile Application";
+
+/* Class = "UILabel"; text = "กรุณารอสักครู่"; ObjectID = "gLH-qS-7Ml"; */
+"gLH-qS-7Ml.text" = "กรุณารอสักครู่";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "gRf-fn-g6a"; */
+"gRf-fn-g6a.text" = "Label";
+
+/* Class = "UILabel"; text = "นายจ้างที่ต้องการใช้บริการ "; ObjectID = "gYZ-DN-wgL"; */
+"gYZ-DN-wgL.text" = "นายจ้างที่ต้องการใช้บริการ ";
+
+/* Class = "UILabel"; text = "ตำแหน่งงาน"; ObjectID = "gb7-Y8-MyU"; */
+"gb7-Y8-MyU.text" = "ตำแหน่งงาน";
+
+/* Class = "UILabel"; text = "กรุณารอสักครู่"; ObjectID = "gcv-wh-vUD"; */
+"gcv-wh-vUD.text" = "กรุณารอสักครู่";
+
+/* Class = "UILabel"; text = "ประเภทงาน"; ObjectID = "hLT-XJ-zoI"; */
+"hLT-XJ-zoI.text" = "ประเภทงาน";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "iMF-2L-yne"; */
+"iMF-2L-yne.text" = "Label";
+
+/* Class = "UITextField"; placeholder = "ตำบล"; ObjectID = "igc-CK-JS8"; */
+"igc-CK-JS8.placeholder" = "ตำบล";
+
+/* Class = "UILabel"; text = "dd/mm/yyyy"; ObjectID = "ilB-j4-nTw"; */
+"ilB-j4-nTw.text" = "dd/mm/yyyy";
+
+/* Class = "UILabel"; text = "ที่อยู่"; ObjectID = "inP-EW-ikI"; */
+"inP-EW-ikI.text" = "ที่อยู่";
+
+/* Class = "UILabel"; text = ":"; ObjectID = "irE-T5-eP3"; */
+"irE-T5-eP3.text" = ":";
+
+/* Class = "UILabel"; text = "อายุระหว่าง"; ObjectID = "irs-pd-LTq"; */
+"irs-pd-LTq.text" = "อายุระหว่าง";
+
+/* Class = "UILabel"; text = "สวัสดิการ"; ObjectID = "j35-fa-eBF"; */
+"j35-fa-eBF.text" = "สวัสดิการ";
+
+/* Class = "UIBarButtonItem"; title = "Back"; ObjectID = "jiT-qW-liP"; */
+"jiT-qW-liP.title" = "Back";
+
+/* Class = "UILabel"; text = "กรุณารอสักครู่"; ObjectID = "jwV-bx-mEh"; */
+"jwV-bx-mEh.text" = "กรุณารอสักครู่";
+
+/* Class = "UITextField"; placeholder = "วุฒิการศึกษาสูงสุด"; ObjectID = "kGr-n3-Wth"; */
+"kGr-n3-Wth.placeholder" = "วุฒิการศึกษาสูงสุด";
+
+/* Class = "UILabel"; text = "ไม่พบข้อมูล"; ObjectID = "kTp-Hs-paW"; */
+"kTp-Hs-paW.text" = "ไม่พบข้อมูล";
+
+/* Class = "UILabel"; text = ":"; ObjectID = "keK-WG-GFW"; */
+"keK-WG-GFW.text" = ":";
+
+/* Class = "UIBarButtonItem"; title = "Back"; ObjectID = "kla-Lh-Q2S"; */
+"kla-Lh-Q2S.title" = "Back";
+
+/* Class = "UILabel"; text = "กรุณารอสักครู่"; ObjectID = "kuc-EB-qjJ"; */
+"kuc-EB-qjJ.text" = "กรุณารอสักครู่";
+
+/* Class = "UIButton"; normalTitle = ">> ลงทะเบียน <<"; ObjectID = "ky9-pt-2am"; */
+"ky9-pt-2am.normalTitle" = ">> ลงทะเบียน <<";
+
+/* Class = "UILabel"; text = "อายุ"; ObjectID = "lEC-hN-Mxf"; */
+"lEC-hN-Mxf.text" = "อายุ";
+
+/* Class = "UILabel"; text = ":"; ObjectID = "lcj-f9-iar"; */
+"lcj-f9-iar.text" = ":";
+
+/* Class = "UILabel"; text = "ในการสมัครเข้าใช้บริการสำหรับคนหางาน"; ObjectID = "mCj-mg-4yr"; */
+"mCj-mg-4yr.text" = "ในการสมัครเข้าใช้บริการสำหรับคนหางาน";
+
+/* Class = "UILabel"; text = ":"; ObjectID = "mCy-9C-2io"; */
+"mCy-9C-2io.text" = ":";
+
+/* Class = "UILabel"; text = "PHP"; ObjectID = "mTP-73-S2g"; */
+"mTP-73-S2g.text" = "PHP";
+
+/* Class = "UILabel"; text = "เข้าสู่ระบบจัดหางาน"; ObjectID = "md4-1j-4R1"; */
+"md4-1j-4R1.text" = "เข้าสู่ระบบจัดหางาน";
+
+/* Class = "UILabel"; text = "ปรับปรุงข้อมูล"; ObjectID = "muw-0Y-x6N"; */
+"muw-0Y-x6N.text" = "ปรับปรุงข้อมูล";
+
+/* Class = "UITextField"; placeholder = "รหัสผ่าน"; ObjectID = "n09-ZN-iIW"; */
+"n09-ZN-iIW.placeholder" = "รหัสผ่าน";
+
+/* Class = "UIBarButtonItem"; title = "Back"; ObjectID = "nEf-CJ-XE3"; */
+"nEf-CJ-XE3.title" = "Back";
+
+/* Class = "UIBarButtonItem"; title = "Logout"; ObjectID = "nY0-OE-jtu"; */
+"nY0-OE-jtu.title" = "Logout";
+
+/* Class = "UILabel"; text = ":"; ObjectID = "ndI-7R-3YD"; */
+"ndI-7R-3YD.text" = ":";
+
+/* Class = "UILabel"; text = "ไม่พบข้อมูล"; ObjectID = "nda-hH-G27"; */
+"nda-hH-G27.text" = "ไม่พบข้อมูล";
+
+/* Class = "UILabel"; text = "วันทำงาน"; ObjectID = "nk5-6Z-vsg"; */
+"nk5-6Z-vsg.text" = "วันทำงาน";
+
+/* Class = "UINavigationItem"; title = "ผู้สมัครงานเข้ามา"; ObjectID = "o7Y-D3-iAt"; */
+"o7Y-D3-iAt.title" = "ผู้สมัครงานเข้ามา";
+
+/* Class = "UILabel"; text = ":"; ObjectID = "oD3-Te-uhr"; */
+"oD3-Te-uhr.text" = ":";
+
+/* Class = "UILabel"; text = "ลักษณะงาน"; ObjectID = "odE-2u-tCB"; */
+"odE-2u-tCB.text" = "ลักษณะงาน";
+
+/* Class = "UILabel"; text = ":"; ObjectID = "pK1-1H-OGD"; */
+"pK1-1H-OGD.text" = ":";
+
+/* Class = "UILabel"; text = ":"; ObjectID = "pMy-yl-ZLc"; */
+"pMy-yl-ZLc.text" = ":";
+
+/* Class = "UINavigationItem"; title = "เข้าสู่ระบบ"; ObjectID = "pyw-0V-fJI"; */
+"pyw-0V-fJI.title" = "เข้าสู่ระบบ";
+
+/* Class = "UITextField"; placeholder = "รหัสผ่าน"; ObjectID = "q6A-Cv-vuZ"; */
+"q6A-Cv-vuZ.placeholder" = "รหัสผ่าน";
+
+/* Class = "UIBarButtonItem"; title = "Logout"; ObjectID = "qyV-1k-Rjz"; */
+"qyV-1k-Rjz.title" = "Logout";
+
+/* Class = "UILabel"; text = "ประเภทงาน"; ObjectID = "qyf-yG-Xiz"; */
+"qyf-yG-Xiz.text" = "ประเภทงาน";
+
+/* Class = "UINavigationItem"; title = "ประวัติผู้สมัคร"; ObjectID = "rJz-j0-6Sh"; */
+"rJz-j0-6Sh.title" = "ประวัติผู้สมัคร";
+
+/* Class = "UILabel"; text = "อัตรา"; ObjectID = "rqq-z1-iQR"; */
+"rqq-z1-iQR.text" = "อัตรา";
+
+/* Class = "UINavigationItem"; title = "รายละเอียดงาน"; ObjectID = "sAU-hH-p3y"; */
+"sAU-hH-p3y.title" = "รายละเอียดงาน";
+
+/* Class = "UILabel"; text = "PHP / Programmer"; ObjectID = "sXc-tJ-GiN"; */
+"sXc-tJ-GiN.text" = "PHP / Programmer";
+
+/* Class = "UIBarButtonItem"; title = "Back"; ObjectID = "tA3-aT-jki"; */
+"tA3-aT-jki.title" = "Back";
+
+/* Class = "UILabel"; text = "กรุณารอสักครู่"; ObjectID = "tYd-4c-tUY"; */
+"tYd-4c-tUY.text" = "กรุณารอสักครู่";
+
+/* Class = "UILabel"; text = "4"; ObjectID = "tb2-Zy-Xyp"; */
+"tb2-Zy-Xyp.text" = "4";
+
+/* Class = "UITextField"; placeholder = "นามสกุล"; ObjectID = "tdn-qb-Opo"; */
+"tdn-qb-Opo.placeholder" = "นามสกุล";
+
+/* Class = "UILabel"; text = "ยินดีต้อนรับ"; ObjectID = "ty9-Us-mlq"; */
+"ty9-Us-mlq.text" = "ยินดีต้อนรับ";
+
+/* Class = "UIBarButtonItem"; title = "Back"; ObjectID = "tzC-kT-foN"; */
+"tzC-kT-foN.title" = "Back";
+
+/* Class = "UITextField"; placeholder = "จังหวัด"; ObjectID = "u2V-vR-woR"; */
+"u2V-vR-woR.placeholder" = "จังหวัด";
+
+/* Class = "UITextField"; placeholder = "รหัสผู้ใช้งาน"; ObjectID = "uFP-0O-ePz"; */
+"uFP-0O-ePz.placeholder" = "รหัสผู้ใช้งาน";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "uIo-um-k5R"; */
+"uIo-um-k5R.text" = "Label";
+
+/* Class = "UINavigationItem"; title = "งานใหม่ล่าสุด"; ObjectID = "ufO-l6-jmt"; */
+"ufO-l6-jmt.title" = "งานใหม่ล่าสุด";
+
+/* Class = "UILabel"; text = "ท่านสามารถส่งข้อความหาผู้สมัครได้เพียง 1 ครั้ง"; ObjectID = "v7h-bO-ubX"; */
+"v7h-bO-ubX.text" = "ท่านสามารถส่งข้อความหาผู้สมัครได้เพียง 1 ครั้ง";
+
+/* Class = "UILabel"; text = ":"; ObjectID = "vFG-ue-14g"; */
+"vFG-ue-14g.text" = ":";
+
+/* Class = "UILabel"; text = "อายุระหว่าง"; ObjectID = "vdd-I6-Qb8"; */
+"vdd-I6-Qb8.text" = "อายุระหว่าง";
+
+/* Class = "UILabel"; text = ":"; ObjectID = "vw2-TC-aYD"; */
+"vw2-TC-aYD.text" = ":";
+
+/* Class = "UILabel"; text = ":"; ObjectID = "w3f-MP-tje"; */
+"w3f-MP-tje.text" = ":";
+
+/* Class = "UILabel"; text = ":"; ObjectID = "wHK-eu-u9w"; */
+"wHK-eu-u9w.text" = ":";
+
+/* Class = "UILabel"; text = "ไม่พบข้อมูล"; ObjectID = "whZ-24-mkm"; */
+"whZ-24-mkm.text" = "ไม่พบข้อมูล";
+
+/* Class = "UIBarButtonItem"; title = "Back"; ObjectID = "xUl-3v-oRU"; */
+"xUl-3v-oRU.title" = "Back";
+
+/* Class = "UILabel"; text = ":"; ObjectID = "xgP-SE-WOs"; */
+"xgP-SE-WOs.text" = ":";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "xqC-gh-kqb"; */
+"xqC-gh-kqb.text" = "Label";
+
+/* Class = "UILabel"; text = "ประสบการณ์ทำงาน"; ObjectID = "y4f-wa-GrO"; */
+"y4f-wa-GrO.text" = "ประสบการณ์ทำงาน";
+
+/* Class = "UILabel"; text = "อายุระหว่าง"; ObjectID = "yAw-GP-Tuy"; */
+"yAw-GP-Tuy.text" = "อายุระหว่าง";
+
+/* Class = "UILabel"; text = " ช่วงอายุการทำงาน"; ObjectID = "yc3-jo-tpX"; */
+"yc3-jo-tpX.text" = " ช่วงอายุการทำงาน";
+
+/* Class = "UILabel"; text = "เบอร์โทร"; ObjectID = "ykR-Jh-b8K"; */
+"ykR-Jh-b8K.text" = "เบอร์โทร";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "yuA-dm-Ba7"; */
+"yuA-dm-Ba7.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "z4p-v1-Sgb"; */
+"z4p-v1-Sgb.text" = "Label";
+
+/* Class = "UILabel"; text = ":"; ObjectID = "zFk-q8-th3"; */
+"zFk-q8-th3.text" = ":";
+
+/* Class = "UIBarButtonItem"; title = "Back"; ObjectID = "zSO-LP-KtP"; */
+"zSO-LP-KtP.title" = "Back";

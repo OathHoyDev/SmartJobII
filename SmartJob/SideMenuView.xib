@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12118" systemVersion="16F54b" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="supermarket.ttf">
+            <string>supermarket</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SideMenuView" customModule="SmartJob" customModuleProvider="target">
+            <connections>
+                <outlet property="bt_Login" destination="PyY-xa-en0" id="59z-eu-K4Z"/>
+                <outlet property="bt_Logout" destination="Ln2-03-SLV" id="RMV-N5-IEX"/>
+                <outlet property="bt_Profile" destination="gIO-zU-D83" id="4a3-km-bbe"/>
+                <outlet property="contentView" destination="jQv-qC-SRF" id="FhT-TX-fwf"/>
+                <outlet property="image_Employee" destination="ggi-ye-9Hn" id="u1X-Yx-TiJ"/>
+                <outlet property="image_Logo" destination="L1b-5s-00u" id="paj-h2-qcM"/>
+                <outlet property="lb_employeeName" destination="JrK-O3-rzH" id="ZbZ-Tv-igz"/>
+                <outlet property="lb_text1" destination="bMM-Bl-y9f" id="TMh-Yp-6QC"/>
+                <outlet property="lb_text2" destination="IZs-pS-6n3" id="8Wy-Q9-4vD"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="250" height="672"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jQv-qC-SRF" userLabel="sideMenuView">
+                    <rect key="frame" x="0.0" y="0.0" width="250" height="672"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZC4-sq-R1o">
+                            <rect key="frame" x="0.0" y="0.0" width="250" height="170"/>
+                            <subviews>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logoOnly" translatesAutoresizingMaskIntoConstraints="NO" id="L1b-5s-00u">
+                                    <rect key="frame" x="85" y="15" width="81" height="81"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" secondItem="L1b-5s-00u" secondAttribute="height" multiplier="1:1" id="PNY-7X-Qyg"/>
+                                    </constraints>
+                                </imageView>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JrK-O3-rzH">
+                                    <rect key="frame" x="8" y="120" width="234" height="19.5"/>
+                                    <fontDescription key="fontDescription" name="supermarket" family="supermarket" pointSize="18"/>
+                                    <color key="textColor" red="0.96078431369999995" green="0.96078431369999995" blue="0.96078431369999995" alpha="1" colorSpace="calibratedRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="กรมการจัดหางาน" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bMM-Bl-y9f">
+                                    <rect key="frame" x="8" y="104" width="234" height="17"/>
+                                    <fontDescription key="fontDescription" name="supermarket" family="supermarket" pointSize="15"/>
+                                    <color key="textColor" red="0.93725490199999995" green="0.83921568629999999" blue="0.68235294120000001" alpha="1" colorSpace="calibratedRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Smart Job Center" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IZs-pS-6n3">
+                                    <rect key="frame" x="8" y="127" width="234" height="17"/>
+                                    <fontDescription key="fontDescription" name="supermarket" family="supermarket" pointSize="15"/>
+                                    <color key="textColor" red="0.93725490199999995" green="0.83921568629999999" blue="0.68235294120000001" alpha="1" colorSpace="calibratedRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Image_Cartoon_Employee" translatesAutoresizingMaskIntoConstraints="NO" id="ggi-ye-9Hn">
+                                    <rect key="frame" x="80" y="15" width="90" height="90"/>
+                                </imageView>
+                            </subviews>
+                            <color key="backgroundColor" red="0.2274509804" green="0.062745098040000002" blue="0.058823529409999999" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstItem="JrK-O3-rzH" firstAttribute="top" secondItem="ggi-ye-9Hn" secondAttribute="bottom" constant="15" id="7zg-NZ-MfP"/>
+                                <constraint firstItem="ggi-ye-9Hn" firstAttribute="width" secondItem="L1b-5s-00u" secondAttribute="height" multiplier="10:9" id="BnC-vJ-WJT"/>
+                                <constraint firstItem="ggi-ye-9Hn" firstAttribute="centerX" secondItem="ZC4-sq-R1o" secondAttribute="centerX" id="DG0-Ki-8WM"/>
+                                <constraint firstItem="bMM-Bl-y9f" firstAttribute="leading" secondItem="ZC4-sq-R1o" secondAttribute="leading" constant="8" id="ERU-Bn-pbN"/>
+                                <constraint firstItem="ggi-ye-9Hn" firstAttribute="top" secondItem="ZC4-sq-R1o" secondAttribute="top" constant="15" id="Glu-WF-d2z"/>
+                                <constraint firstItem="ggi-ye-9Hn" firstAttribute="width" secondItem="ggi-ye-9Hn" secondAttribute="height" multiplier="1:1" id="HJ2-2d-X1s"/>
+                                <constraint firstItem="L1b-5s-00u" firstAttribute="top" secondItem="ZC4-sq-R1o" secondAttribute="top" constant="15" id="LVn-EI-ybH"/>
+                                <constraint firstAttribute="trailing" secondItem="JrK-O3-rzH" secondAttribute="trailing" constant="8" id="LW3-39-7GT"/>
+                                <constraint firstItem="bMM-Bl-y9f" firstAttribute="top" secondItem="L1b-5s-00u" secondAttribute="bottom" constant="8" id="Mdm-rw-9FK"/>
+                                <constraint firstItem="IZs-pS-6n3" firstAttribute="leading" secondItem="ZC4-sq-R1o" secondAttribute="leading" constant="8" id="NCt-YD-zBc"/>
+                                <constraint firstItem="IZs-pS-6n3" firstAttribute="centerX" secondItem="ZC4-sq-R1o" secondAttribute="centerX" id="NNN-S8-StE"/>
+                                <constraint firstItem="IZs-pS-6n3" firstAttribute="top" secondItem="bMM-Bl-y9f" secondAttribute="bottom" constant="6" id="Nb7-oG-Ale"/>
+                                <constraint firstItem="JrK-O3-rzH" firstAttribute="centerX" secondItem="ZC4-sq-R1o" secondAttribute="centerX" id="WZU-if-HIE"/>
+                                <constraint firstItem="bMM-Bl-y9f" firstAttribute="centerX" secondItem="ZC4-sq-R1o" secondAttribute="centerX" id="WbT-IJ-B3y"/>
+                                <constraint firstAttribute="trailing" secondItem="IZs-pS-6n3" secondAttribute="trailing" constant="8" id="Yqp-DE-5Kj"/>
+                                <constraint firstItem="L1b-5s-00u" firstAttribute="centerX" secondItem="ZC4-sq-R1o" secondAttribute="centerX" id="bQP-Fk-gR0"/>
+                                <constraint firstItem="JrK-O3-rzH" firstAttribute="leading" secondItem="ZC4-sq-R1o" secondAttribute="leading" constant="8" id="kCA-dw-Evv"/>
+                                <constraint firstAttribute="width" secondItem="ZC4-sq-R1o" secondAttribute="height" multiplier="25:17" id="lkJ-rU-EZm"/>
+                                <constraint firstItem="L1b-5s-00u" firstAttribute="width" secondItem="ZC4-sq-R1o" secondAttribute="height" multiplier="80:169" id="uNc-w1-rDl"/>
+                                <constraint firstAttribute="trailing" secondItem="bMM-Bl-y9f" secondAttribute="trailing" constant="8" id="vQP-tU-y5y"/>
+                            </constraints>
+                        </view>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PyY-xa-en0">
+                            <rect key="frame" x="8" y="623.5" width="234" height="40.5"/>
+                            <color key="backgroundColor" red="0.47450980390000003" green="0.25098039220000001" blue="0.53333333329999999" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="width" secondItem="PyY-xa-en0" secondAttribute="height" multiplier="29:5" id="bOd-uG-LaE"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="supermarket" family="supermarket" pointSize="17"/>
+                            <state key="normal" title="เข้าสู่ระบบ">
+                                <color key="titleColor" red="0.96078431369999995" green="0.96078431369999995" blue="0.96078431369999995" alpha="1" colorSpace="calibratedRGB"/>
+                            </state>
+                        </button>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_find_emplyee" translatesAutoresizingMaskIntoConstraints="NO" id="JbB-Am-7En">
+                            <rect key="frame" x="8" y="185" width="40.5" height="40.5"/>
+                            <constraints>
+                                <constraint firstAttribute="width" secondItem="JbB-Am-7En" secondAttribute="height" multiplier="1:1" id="n5r-hu-CsK"/>
+                            </constraints>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_abroad_job" translatesAutoresizingMaskIntoConstraints="NO" id="QME-0I-FRS">
+                            <rect key="frame" x="8" y="240.5" width="40.5" height="40"/>
+                            <constraints>
+                                <constraint firstAttribute="width" secondItem="QME-0I-FRS" secondAttribute="height" multiplier="1:1" id="dRF-pr-pdD"/>
+                            </constraints>
+                        </imageView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I5X-nm-EHt">
+                            <rect key="frame" x="56.5" y="185" width="185.5" height="40.5"/>
+                            <fontDescription key="fontDescription" name="supermarket" family="supermarket" pointSize="17"/>
+                            <state key="normal" title="หางาน">
+                                <color key="titleColor" red="0.2274509804" green="0.062745098040000002" blue="0.058823529409999999" alpha="1" colorSpace="calibratedRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="clickFindJob:" destination="-1" eventType="touchUpInside" id="UUK-YH-px5"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EAg-RJ-223">
+                            <rect key="frame" x="56.5" y="240.5" width="185.5" height="40"/>
+                            <fontDescription key="fontDescription" name="supermarket" family="supermarket" pointSize="17"/>
+                            <state key="normal" title="ระบบงานต่างประเทศ">
+                                <color key="titleColor" red="0.2274509804" green="0.062745098040000002" blue="0.058823529409999999" alpha="1" colorSpace="calibratedRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="clickNationalJob:" destination="-1" eventType="touchUpInside" id="UJY-12-Dfh"/>
+                            </connections>
+                        </button>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_empty_job" translatesAutoresizingMaskIntoConstraints="NO" id="rDW-0H-LH1">
+                            <rect key="frame" x="8" y="295.5" width="40.5" height="40.5"/>
+                            <constraints>
+                                <constraint firstAttribute="width" secondItem="rDW-0H-LH1" secondAttribute="height" multiplier="1:1" id="Bvw-wB-X6I"/>
+                            </constraints>
+                        </imageView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jbs-h8-D5i">
+                            <rect key="frame" x="56.5" y="295.5" width="185.5" height="40.5"/>
+                            <fontDescription key="fontDescription" name="supermarket" family="supermarket" pointSize="17"/>
+                            <state key="normal" title="ผู้ประกันตนกรณีว่างงาน">
+                                <color key="titleColor" red="0.2274509804" green="0.062745098040000002" blue="0.058823529409999999" alpha="1" colorSpace="calibratedRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="clickEmptyJob:" destination="-1" eventType="touchUpInside" id="K3g-zz-OdK"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ln2-03-SLV">
+                            <rect key="frame" x="8" y="623.5" width="234" height="40.5"/>
+                            <color key="backgroundColor" red="0.52549019610000003" green="0.16862745100000001" blue="0.43921568630000002" alpha="1" colorSpace="calibratedRGB"/>
+                            <fontDescription key="fontDescription" name="supermarket" family="supermarket" pointSize="17"/>
+                            <state key="normal" title="ออกจากระบบ">
+                                <color key="titleColor" red="0.96078431369999995" green="0.96078431369999995" blue="0.96078431369999995" alpha="1" colorSpace="calibratedRGB"/>
+                            </state>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gIO-zU-D83">
+                            <rect key="frame" x="8" y="575.5" width="234" height="40"/>
+                            <color key="backgroundColor" red="0.47450980390000003" green="0.25098039220000001" blue="0.52941176469999995" alpha="1" colorSpace="calibratedRGB"/>
+                            <fontDescription key="fontDescription" name="supermarket" family="supermarket" pointSize="17"/>
+                            <state key="normal" title="ข้อมูลส่วนตัว">
+                                <color key="titleColor" red="0.96078431369999995" green="0.96078431369999995" blue="0.96078431369999995" alpha="1" colorSpace="calibratedRGB"/>
+                            </state>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="0.93725490199999995" green="0.83921568629999999" blue="0.68235294120000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="PyY-xa-en0" secondAttribute="bottom" constant="8" id="0Qj-Bo-4ho"/>
+                        <constraint firstItem="Jbs-h8-D5i" firstAttribute="leading" secondItem="rDW-0H-LH1" secondAttribute="trailing" constant="8" id="4J1-8Y-dO0"/>
+                        <constraint firstItem="I5X-nm-EHt" firstAttribute="height" secondItem="JbB-Am-7En" secondAttribute="height" id="4Ra-vy-aA4"/>
+                        <constraint firstItem="Jbs-h8-D5i" firstAttribute="height" secondItem="rDW-0H-LH1" secondAttribute="height" id="54c-Lt-x6x"/>
+                        <constraint firstItem="QME-0I-FRS" firstAttribute="top" secondItem="JbB-Am-7En" secondAttribute="bottom" constant="15" id="5fK-rS-maf"/>
+                        <constraint firstAttribute="trailing" secondItem="Jbs-h8-D5i" secondAttribute="trailing" constant="8" id="7du-ZL-dW4"/>
+                        <constraint firstItem="JbB-Am-7En" firstAttribute="leading" secondItem="jQv-qC-SRF" secondAttribute="leading" constant="8" id="CWx-AK-NiD"/>
+                        <constraint firstItem="Ln2-03-SLV" firstAttribute="height" secondItem="PyY-xa-en0" secondAttribute="height" id="CiP-xV-zqK"/>
+                        <constraint firstItem="gIO-zU-D83" firstAttribute="width" secondItem="PyY-xa-en0" secondAttribute="width" id="ESl-44-c9F"/>
+                        <constraint firstItem="JbB-Am-7En" firstAttribute="top" secondItem="ZC4-sq-R1o" secondAttribute="bottom" constant="15" id="EWT-H7-bMm"/>
+                        <constraint firstItem="I5X-nm-EHt" firstAttribute="leading" secondItem="JbB-Am-7En" secondAttribute="trailing" constant="8" id="FrW-EK-1YD"/>
+                        <constraint firstItem="I5X-nm-EHt" firstAttribute="top" secondItem="JbB-Am-7En" secondAttribute="top" id="Hh6-iM-Oxn"/>
+                        <constraint firstAttribute="trailing" secondItem="I5X-nm-EHt" secondAttribute="trailing" constant="8" id="IOi-XB-pwi"/>
+                        <constraint firstItem="QME-0I-FRS" firstAttribute="width" secondItem="JbB-Am-7En" secondAttribute="height" multiplier="1:1" id="Ju8-Lu-ucY"/>
+                        <constraint firstItem="gIO-zU-D83" firstAttribute="centerX" secondItem="jQv-qC-SRF" secondAttribute="centerX" id="Njv-nx-vMO"/>
+                        <constraint firstItem="rDW-0H-LH1" firstAttribute="width" secondItem="JbB-Am-7En" secondAttribute="height" multiplier="1:1" id="RQp-jL-Kji"/>
+                        <constraint firstItem="gIO-zU-D83" firstAttribute="height" secondItem="PyY-xa-en0" secondAttribute="height" id="Sq9-YM-f3Z"/>
+                        <constraint firstItem="rDW-0H-LH1" firstAttribute="top" secondItem="QME-0I-FRS" secondAttribute="bottom" constant="15" id="Tnm-Ud-BVP"/>
+                        <constraint firstAttribute="trailing" secondItem="EAg-RJ-223" secondAttribute="trailing" constant="8" id="VZo-zn-9nX"/>
+                        <constraint firstItem="ZC4-sq-R1o" firstAttribute="top" secondItem="jQv-qC-SRF" secondAttribute="top" id="ZBt-3u-gl5"/>
+                        <constraint firstAttribute="trailing" secondItem="ZC4-sq-R1o" secondAttribute="trailing" id="bnp-8Q-BVO"/>
+                        <constraint firstItem="PyY-xa-en0" firstAttribute="leading" secondItem="jQv-qC-SRF" secondAttribute="leading" constant="8" id="cKD-J4-RHf"/>
+                        <constraint firstItem="JbB-Am-7En" firstAttribute="height" secondItem="PyY-xa-en0" secondAttribute="height" id="eLF-U7-EZo"/>
+                        <constraint firstItem="PyY-xa-en0" firstAttribute="bottom" secondItem="Ln2-03-SLV" secondAttribute="bottom" id="eew-ox-Lyp"/>
+                        <constraint firstItem="ZC4-sq-R1o" firstAttribute="leading" secondItem="jQv-qC-SRF" secondAttribute="leading" id="g5c-Ut-Wmt"/>
+                        <constraint firstItem="Ln2-03-SLV" firstAttribute="width" secondItem="PyY-xa-en0" secondAttribute="width" id="gN2-cc-fh4"/>
+                        <constraint firstItem="rDW-0H-LH1" firstAttribute="leading" secondItem="jQv-qC-SRF" secondAttribute="leading" constant="8" id="k4D-pS-TAp"/>
+                        <constraint firstItem="EAg-RJ-223" firstAttribute="leading" secondItem="QME-0I-FRS" secondAttribute="trailing" constant="8" id="kNz-Ch-rkJ"/>
+                        <constraint firstItem="QME-0I-FRS" firstAttribute="leading" secondItem="jQv-qC-SRF" secondAttribute="leading" constant="8" id="mTq-u6-TGA"/>
+                        <constraint firstItem="Jbs-h8-D5i" firstAttribute="top" secondItem="rDW-0H-LH1" secondAttribute="top" id="nMp-xg-s3k"/>
+                        <constraint firstItem="Ln2-03-SLV" firstAttribute="top" secondItem="gIO-zU-D83" secondAttribute="bottom" constant="8.5" id="okP-yr-sN6"/>
+                        <constraint firstItem="PyY-xa-en0" firstAttribute="centerX" secondItem="jQv-qC-SRF" secondAttribute="centerX" id="r9C-Jx-kdX"/>
+                        <constraint firstItem="EAg-RJ-223" firstAttribute="top" secondItem="QME-0I-FRS" secondAttribute="top" id="u9G-RM-Gak"/>
+                        <constraint firstItem="Ln2-03-SLV" firstAttribute="centerX" secondItem="jQv-qC-SRF" secondAttribute="centerX" id="vzH-MY-u26"/>
+                        <constraint firstItem="EAg-RJ-223" firstAttribute="height" secondItem="QME-0I-FRS" secondAttribute="height" id="x9a-44-O4k"/>
+                        <constraint firstAttribute="trailing" secondItem="PyY-xa-en0" secondAttribute="trailing" constant="8" id="xwy-jq-bN4"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="jQv-qC-SRF" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="99t-Jc-zTq"/>
+                <constraint firstAttribute="trailing" secondItem="jQv-qC-SRF" secondAttribute="trailing" id="iiz-lE-jhW"/>
+                <constraint firstAttribute="bottom" secondItem="jQv-qC-SRF" secondAttribute="bottom" id="wj1-mv-pKz"/>
+                <constraint firstItem="jQv-qC-SRF" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="x6J-JN-A0J"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Image_Cartoon_Employee" width="126" height="126"/>
+        <image name="ic_abroad_job" width="30" height="30"/>
+        <image name="ic_empty_job" width="30" height="30"/>
+        <image name="ic_find_emplyee" width="30" height="30"/>
+        <image name="logoOnly" width="271" height="276"/>
+    </resources>
+</document>

@@ -1,0 +1,824 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		490463091EA33498001E1E4B /* NationalCompanyHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490463081EA33498001E1E4B /* NationalCompanyHelper.swift */; };
+		4917F8451C229F6F0083C88E /* supermarket.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 492A4CA21C215617000AD98B /* supermarket.ttf */; };
+		491BED7C1BEF08E100A6D765 /* EmployeeGroupListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491BED7B1BEF08E100A6D765 /* EmployeeGroupListViewController.swift */; };
+		491BED7E1BEF108B00A6D765 /* EmployeeListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491BED7D1BEF108B00A6D765 /* EmployeeListViewController.swift */; };
+		491BED801BEF1BAB00A6D765 /* JobListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491BED7F1BEF1BAB00A6D765 /* JobListViewController.swift */; };
+		491C4AFC1E22C1E500F4BF19 /* FirstMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491C4AFB1E22C1E500F4BF19 /* FirstMenuViewController.swift */; };
+		491DB7001C2553360087BC65 /* KeychainWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 491DB6FF1C2553360087BC65 /* KeychainWrapper.m */; };
+		491DB7051C266B660087BC65 /* ShareData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491DB7041C266B660087BC65 /* ShareData.swift */; };
+		492081301EABCE9F00A44D5C /* OnePasswordNationJobViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4920812F1EABCE9F00A44D5C /* OnePasswordNationJobViewController.swift */; };
+		492081321EAC424F00A44D5C /* NationJobCompleteLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492081311EAC424F00A44D5C /* NationJobCompleteLoginViewController.swift */; };
+		492081341EAC541E00A44D5C /* InsuredOnePasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492081331EAC541E00A44D5C /* InsuredOnePasswordViewController.swift */; };
+		492081361EAC57C600A44D5C /* InsuredCompleteLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492081351EAC57C600A44D5C /* InsuredCompleteLoginViewController.swift */; };
+		492468A61BFC372700514EB2 /* EmployeeDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492468A51BFC372700514EB2 /* EmployeeDetailViewController.swift */; };
+		492870C11BF062D9004CD8D3 /* EmployerHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492870C01BF062D9004CD8D3 /* EmployerHomeViewController.swift */; };
+		492E381B1BFADD8900E2C700 /* ConfirmEmployeeRegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492E381A1BFADD8900E2C700 /* ConfirmEmployeeRegisterViewController.swift */; };
+		492E381D1BFAE15600E2C700 /* EmployeeHomeViewController_2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492E381C1BFAE15600E2C700 /* EmployeeHomeViewController_2.swift */; };
+		492E381F1BFB14A600E2C700 /* JobApplyGroupCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492E381E1BFB14A600E2C700 /* JobApplyGroupCell.swift */; };
+		492E38211BFB556700E2C700 /* EmployeeListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492E38201BFB556700E2C700 /* EmployeeListCell.swift */; };
+		4934B9911E34A37F00DAEDA9 /* KeyboardLayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4934B9901E34A37F00DAEDA9 /* KeyboardLayoutConstraint.swift */; };
+		4934B9931E34CA5900DAEDA9 /* OnePasswordForRegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4934B9921E34CA5900DAEDA9 /* OnePasswordForRegistrationViewController.swift */; };
+		4934B9951E34D56000DAEDA9 /* SideMenuView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4934B9941E34D56000DAEDA9 /* SideMenuView.xib */; };
+		4934B9971E34D74000DAEDA9 /* SideMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4934B9961E34D74000DAEDA9 /* SideMenuView.swift */; };
+		49415D4C1C1821AC007BF2BC /* EGAHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49415D4B1C1821AC007BF2BC /* EGAHelper.swift */; };
+		494188531EA4807000D3C25F /* NationalTestPlaceListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494188521EA4807000D3C25F /* NationalTestPlaceListViewController.swift */; };
+		494188551EA4808200D3C25F /* NationalTestPlaceDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494188541EA4808200D3C25F /* NationalTestPlaceDetailViewController.swift */; };
+		494188571EA4809800D3C25F /* NationalTestPlaceHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494188561EA4809800D3C25F /* NationalTestPlaceHelper.swift */; };
+		494188591EA4C33500D3C25F /* NationalPositionDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494188581EA4C33500D3C25F /* NationalPositionDetailViewController.swift */; };
+		4941885B1EA4FCD100D3C25F /* NationalJobHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4941885A1EA4FCD100D3C25F /* NationalJobHelper.swift */; };
+		4946979D1EBF26CC0090AF0B /* InsurePresentDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4946979C1EBF26CC0090AF0B /* InsurePresentDetailViewController.swift */; };
+		4947B58E1E33408F0095795C /* InsuredLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4947B58D1E33408F0095795C /* InsuredLoginViewController.swift */; };
+		4947B5901E3347D40095795C /* InsuredRegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4947B58F1E3347D40095795C /* InsuredRegistrationViewController.swift */; };
+		494C61591E8CBA0E00FB7FA0 /* EmpuiHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494C61581E8CBA0E00FB7FA0 /* EmpuiHelper.swift */; };
+		494C615B1E8CFC7B00FB7FA0 /* HistoryInsuredPresentDayListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494C615A1E8CFC7B00FB7FA0 /* HistoryInsuredPresentDayListViewController.swift */; };
+		494C615D1E8E19CF00FB7FA0 /* HistoryInsuredPresentDateCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494C615C1E8E19CE00FB7FA0 /* HistoryInsuredPresentDateCell.swift */; };
+		494FED091E7E3B8000A8E5E6 /* Storyboard_NationJob.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 494FED081E7E3B8000A8E5E6 /* Storyboard_NationJob.storyboard */; };
+		494FED0B1E7E3DE300A8E5E6 /* Storyboard_Insured.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 494FED0A1E7E3DE300A8E5E6 /* Storyboard_Insured.storyboard */; };
+		49507CB31C0052EE003C326B /* EmployeeLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49507CB21C0052EE003C326B /* EmployeeLoginViewController.swift */; };
+		49507CB51C0062A6003C326B /* JobOfEmployeeListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49507CB41C0062A6003C326B /* JobOfEmployeeListViewController.swift */; };
+		495202051C12CCC6004B3836 /* EmployeeHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495202041C12CCC6004B3836 /* EmployeeHelper.swift */; };
+		495202071C12D00E004B3836 /* MasterDataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495202061C12D00E004B3836 /* MasterDataHelper.swift */; };
+		495202091C12D369004B3836 /* EmployerHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495202081C12D369004B3836 /* EmployerHelper.swift */; };
+		4967E7501E802A9900E96969 /* InsuredPresentDayListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4967E74F1E802A9900E96969 /* InsuredPresentDayListViewController.swift */; };
+		4967E7521E80301800E96969 /* Storyboard_Registration.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4967E7511E80301800E96969 /* Storyboard_Registration.storyboard */; };
+		49796D4A1E3DE14D00C8A434 /* InsuredRegulationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49796D491E3DE14D00C8A434 /* InsuredRegulationViewController.swift */; };
+		4979753F1C1EE03800D5A5BF /* EGAErrorMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4979753E1C1EE03800D5A5BF /* EGAErrorMessage.swift */; };
+		4985DAAD1E23EED400A4BE5D /* InternationalJob_Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4985DAAC1E23EED400A4BE5D /* InternationalJob_Assets.xcassets */; };
+		4985DAAF1E23EFC100A4BE5D /* Insured_Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4985DAAE1E23EFC100A4BE5D /* Insured_Assets.xcassets */; };
+		4985DAB11E23F93500A4BE5D /* InternationalJobMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4985DAB01E23F93500A4BE5D /* InternationalJobMenuViewController.swift */; };
+		498ED4941C159ABD00DC85EE /* MemberHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498ED4931C159ABD00DC85EE /* MemberHelper.swift */; };
+		498F44071BF84FCD0007FC7C /* ServiceConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498F44061BF84FCD0007FC7C /* ServiceConstant.swift */; };
+		499AC69A1C3199A500FD5B57 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499AC6991C3199A500FD5B57 /* CustomTextField.swift */; };
+		499AC69C1C319A6B00FD5B57 /* CustomUILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499AC69B1C319A6B00FD5B57 /* CustomUILabel.swift */; };
+		499BE40A1C0CAC560014753D /* EmployeeLoginViewController_2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499BE4091C0CAC560014753D /* EmployeeLoginViewController_2.swift */; };
+		49A43BEA1C19DF8600FA4CE3 /* JobDetailForApplyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A43BE91C19DF8600FA4CE3 /* JobDetailForApplyViewController.swift */; };
+		49A75E8F1BF8EE180013FCDA /* SOAPServiceHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A75E8E1BF8EE180013FCDA /* SOAPServiceHelper.swift */; };
+		49BD24F61BF9979100991A44 /* JSONHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BD24F51BF9979100991A44 /* JSONHelper.swift */; };
+		49BD24F91BF9BEB100991A44 /* JobListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BD24F81BF9BEB100991A44 /* JobListCell.swift */; };
+		49BD24FB1BF9C1DA00991A44 /* JobDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BD24FA1BF9C1DA00991A44 /* JobDetailViewController.swift */; };
+		49BE4D311BF702E700C6C2DB /* EmployerLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BE4D301BF702E700C6C2DB /* EmployerLoginViewController.swift */; };
+		49BE4D331BF70F1900C6C2DB /* MainMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BE4D321BF70F1900C6C2DB /* MainMenuViewController.swift */; };
+		49BE4D361BF717EB00C6C2DB /* ConnectionHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BE4D351BF717EB00C6C2DB /* ConnectionHelper.swift */; };
+		49C1B87F1BD4D02400905173 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C1B87E1BD4D02400905173 /* AppDelegate.swift */; };
+		49C1B8811BD4D02400905173 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C1B8801BD4D02400905173 /* ViewController.swift */; };
+		49C1B8841BD4D02400905173 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49C1B8821BD4D02400905173 /* Main.storyboard */; };
+		49C1B8861BD4D02400905173 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49C1B8851BD4D02400905173 /* Assets.xcassets */; };
+		49C1B8891BD4D02400905173 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49C1B8871BD4D02400905173 /* LaunchScreen.storyboard */; };
+		49C7EFBB1BFA28C600F57070 /* SearchJobViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C7EFBA1BFA28C600F57070 /* SearchJobViewController.swift */; };
+		49C7EFBD1BFA3BD200F57070 /* JobSearchObj.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C7EFBC1BFA3BD200F57070 /* JobSearchObj.swift */; };
+		49C7EFBF1BFA4C2100F57070 /* EmployeeHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C7EFBE1BFA4C2100F57070 /* EmployeeHomeViewController.swift */; };
+		49C82A131EAC797100256DF2 /* SmartJobOnePasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C82A121EAC797100256DF2 /* SmartJobOnePasswordViewController.swift */; };
+		49C9FF601E29E0790033B1E9 /* AgenciesDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C9FF5F1E29E0790033B1E9 /* AgenciesDetailViewController.swift */; };
+		49C9FF641E2A34CE0033B1E9 /* CompanyListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C9FF631E2A34CE0033B1E9 /* CompanyListViewController.swift */; };
+		49D743C01EA691580009CD43 /* HistoryInsuredListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D743BF1EA691580009CD43 /* HistoryInsuredListViewController.swift */; };
+		49D743C21EA694530009CD43 /* HistoryInsuredRegisterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D743C11EA694530009CD43 /* HistoryInsuredRegisterCell.swift */; };
+		49DA35791EA33A4D000A8472 /* NationalCompanyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DA35781EA33A4D000A8472 /* NationalCompanyCell.swift */; };
+		49DA357B1EA34045000A8472 /* CompanyDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DA357A1EA34045000A8472 /* CompanyDetailViewController.swift */; };
+		49DA357D1EA35930000A8472 /* CompanyEmployeeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DA357C1EA35930000A8472 /* CompanyEmployeeCell.swift */; };
+		49DA357F1EA37910000A8472 /* NationalPositionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DA357E1EA37910000A8472 /* NationalPositionCell.swift */; };
+		49DA35811EA37A0C000A8472 /* NationalPositionListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DA35801EA37A0C000A8472 /* NationalPositionListViewController.swift */; };
+		49DA35831EA37B65000A8472 /* NationalPostionHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DA35821EA37B65000A8472 /* NationalPostionHelper.swift */; };
+		49DA35851EA37D12000A8472 /* WorkAbroadInfoHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DA35841EA37D12000A8472 /* WorkAbroadInfoHelper.swift */; };
+		49DA35881EA37E66000A8472 /* WorkAbroadInfoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DA35871EA37E66000A8472 /* WorkAbroadInfoListViewController.swift */; };
+		49DA358A1EA37F97000A8472 /* WorkAbroadInfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DA35891EA37F97000A8472 /* WorkAbroadInfoCell.swift */; };
+		49DA358C1EA385E3000A8472 /* WorkAbroadInfoDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DA358B1EA385E3000A8472 /* WorkAbroadInfoDetailViewController.swift */; };
+		49DA358E1EA3AC2D000A8472 /* NationalHospitalListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DA358D1EA3AC2D000A8472 /* NationalHospitalListViewController.swift */; };
+		49DA35901EA3AC47000A8472 /* NationalHospitalDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DA358F1EA3AC47000A8472 /* NationalHospitalDetailViewController.swift */; };
+		49DA35921EA3AC6A000A8472 /* NationalHospitalCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DA35911EA3AC6A000A8472 /* NationalHospitalCell.swift */; };
+		49DA35941EA3B356000A8472 /* NationalHospitalHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DA35931EA3B356000A8472 /* NationalHospitalHelper.swift */; };
+		49DBA0621C02FB39003E0D7D /* EmployeeProfileOrRegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DBA0611C02FB39003E0D7D /* EmployeeProfileOrRegisterViewController.swift */; };
+		49DBA0641C0318A9003E0D7D /* AdvanceSearchJobViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DBA0631C0318A9003E0D7D /* AdvanceSearchJobViewController.swift */; };
+		49E7FF3D1E98E88B00ACFD9B /* ConfirmEmpuiRegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E7FF3C1E98E88B00ACFD9B /* ConfirmEmpuiRegistrationViewController.swift */; };
+		49F1EEDE1C1C5F5D00268ED6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 49F1EEDD1C1C5F5D00268ED6 /* GoogleService-Info.plist */; };
+		49F5DB2F1E8B6C3400714163 /* InsuredProfileOrRegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F5DB2E1E8B6C3400714163 /* InsuredProfileOrRegistrationViewController.swift */; };
+		49F5DB311E8B954900714163 /* InsuredPresentDateCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F5DB301E8B954900714163 /* InsuredPresentDateCell.swift */; };
+		49F5DB331E8BA93200714163 /* InsurePresentInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F5DB321E8BA93200714163 /* InsurePresentInfoViewController.swift */; };
+		49F6AE651EAA1723006C9BC6 /* NationalJobLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F6AE641EAA1723006C9BC6 /* NationalJobLoginViewController.swift */; };
+		68C6DBE8E643D917B55B13A5 /* libPods-SmartJob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 68BD45F3F5D876E9A9D7FF25 /* libPods-SmartJob.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		490463081EA33498001E1E4B /* NationalCompanyHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NationalCompanyHelper.swift; path = Helper/NationalCompanyHelper.swift; sourceTree = "<group>"; };
+		491BED7B1BEF08E100A6D765 /* EmployeeGroupListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EmployeeGroupListViewController.swift; path = Controller/EmployeeGroupListViewController.swift; sourceTree = "<group>"; };
+		491BED7D1BEF108B00A6D765 /* EmployeeListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EmployeeListViewController.swift; path = Controller/EmployeeListViewController.swift; sourceTree = "<group>"; };
+		491BED7F1BEF1BAB00A6D765 /* JobListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JobListViewController.swift; path = Controller/JobListViewController.swift; sourceTree = "<group>"; };
+		491C4AFB1E22C1E500F4BF19 /* FirstMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FirstMenuViewController.swift; path = Controller/FirstMenuViewController.swift; sourceTree = "<group>"; };
+		491DB6FE1C2553360087BC65 /* KeychainWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KeychainWrapper.h; path = Helper/KeychainWrapper.h; sourceTree = "<group>"; };
+		491DB6FF1C2553360087BC65 /* KeychainWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KeychainWrapper.m; path = Helper/KeychainWrapper.m; sourceTree = "<group>"; };
+		491DB7041C266B660087BC65 /* ShareData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ShareData.swift; path = Object/ShareData.swift; sourceTree = "<group>"; };
+		4920812F1EABCE9F00A44D5C /* OnePasswordNationJobViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OnePasswordNationJobViewController.swift; path = Controller/OnePasswordNationJobViewController.swift; sourceTree = "<group>"; };
+		492081311EAC424F00A44D5C /* NationJobCompleteLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NationJobCompleteLoginViewController.swift; path = Controller/NationJobCompleteLoginViewController.swift; sourceTree = "<group>"; };
+		492081331EAC541E00A44D5C /* InsuredOnePasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = InsuredOnePasswordViewController.swift; path = Controller/InsuredOnePasswordViewController.swift; sourceTree = "<group>"; };
+		492081351EAC57C600A44D5C /* InsuredCompleteLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = InsuredCompleteLoginViewController.swift; path = Controller/InsuredCompleteLoginViewController.swift; sourceTree = "<group>"; };
+		492468A51BFC372700514EB2 /* EmployeeDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EmployeeDetailViewController.swift; path = Controller/EmployeeDetailViewController.swift; sourceTree = "<group>"; };
+		492870C01BF062D9004CD8D3 /* EmployerHomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EmployerHomeViewController.swift; path = Controller/EmployerHomeViewController.swift; sourceTree = "<group>"; };
+		492A4CA21C215617000AD98B /* supermarket.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = supermarket.ttf; sourceTree = "<group>"; };
+		492E381A1BFADD8900E2C700 /* ConfirmEmployeeRegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ConfirmEmployeeRegisterViewController.swift; path = Controller/ConfirmEmployeeRegisterViewController.swift; sourceTree = "<group>"; };
+		492E381C1BFAE15600E2C700 /* EmployeeHomeViewController_2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EmployeeHomeViewController_2.swift; path = Controller/EmployeeHomeViewController_2.swift; sourceTree = "<group>"; };
+		492E381E1BFB14A600E2C700 /* JobApplyGroupCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JobApplyGroupCell.swift; path = Object/JobApplyGroupCell.swift; sourceTree = "<group>"; };
+		492E38201BFB556700E2C700 /* EmployeeListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EmployeeListCell.swift; path = Object/EmployeeListCell.swift; sourceTree = "<group>"; };
+		4934B9901E34A37F00DAEDA9 /* KeyboardLayoutConstraint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = KeyboardLayoutConstraint.swift; path = Helper/KeyboardLayoutConstraint.swift; sourceTree = "<group>"; };
+		4934B9921E34CA5900DAEDA9 /* OnePasswordForRegistrationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OnePasswordForRegistrationViewController.swift; path = Controller/OnePasswordForRegistrationViewController.swift; sourceTree = "<group>"; };
+		4934B9941E34D56000DAEDA9 /* SideMenuView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SideMenuView.xib; sourceTree = "<group>"; };
+		4934B9961E34D74000DAEDA9 /* SideMenuView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SideMenuView.swift; path = Controller/SideMenuView.swift; sourceTree = "<group>"; };
+		49415D4B1C1821AC007BF2BC /* EGAHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EGAHelper.swift; path = Helper/EGAHelper.swift; sourceTree = "<group>"; };
+		494188521EA4807000D3C25F /* NationalTestPlaceListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NationalTestPlaceListViewController.swift; path = Controller/NationalTestPlaceListViewController.swift; sourceTree = "<group>"; };
+		494188541EA4808200D3C25F /* NationalTestPlaceDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NationalTestPlaceDetailViewController.swift; path = Controller/NationalTestPlaceDetailViewController.swift; sourceTree = "<group>"; };
+		494188561EA4809800D3C25F /* NationalTestPlaceHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NationalTestPlaceHelper.swift; path = Helper/NationalTestPlaceHelper.swift; sourceTree = "<group>"; };
+		494188581EA4C33500D3C25F /* NationalPositionDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NationalPositionDetailViewController.swift; path = Controller/NationalPositionDetailViewController.swift; sourceTree = "<group>"; };
+		4941885A1EA4FCD100D3C25F /* NationalJobHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NationalJobHelper.swift; path = Helper/NationalJobHelper.swift; sourceTree = "<group>"; };
+		4946979C1EBF26CC0090AF0B /* InsurePresentDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = InsurePresentDetailViewController.swift; path = Controller/InsurePresentDetailViewController.swift; sourceTree = "<group>"; };
+		4947B58D1E33408F0095795C /* InsuredLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = InsuredLoginViewController.swift; path = Controller/InsuredLoginViewController.swift; sourceTree = "<group>"; };
+		4947B58F1E3347D40095795C /* InsuredRegistrationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = InsuredRegistrationViewController.swift; path = Controller/InsuredRegistrationViewController.swift; sourceTree = "<group>"; };
+		494C61581E8CBA0E00FB7FA0 /* EmpuiHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EmpuiHelper.swift; path = Helper/EmpuiHelper.swift; sourceTree = "<group>"; };
+		494C615A1E8CFC7B00FB7FA0 /* HistoryInsuredPresentDayListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HistoryInsuredPresentDayListViewController.swift; path = Controller/HistoryInsuredPresentDayListViewController.swift; sourceTree = "<group>"; };
+		494C615C1E8E19CE00FB7FA0 /* HistoryInsuredPresentDateCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HistoryInsuredPresentDateCell.swift; path = Object/HistoryInsuredPresentDateCell.swift; sourceTree = "<group>"; };
+		494FED081E7E3B8000A8E5E6 /* Storyboard_NationJob.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard_NationJob.storyboard; sourceTree = "<group>"; };
+		494FED0A1E7E3DE300A8E5E6 /* Storyboard_Insured.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard_Insured.storyboard; sourceTree = "<group>"; };
+		49507CB21C0052EE003C326B /* EmployeeLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EmployeeLoginViewController.swift; path = Controller/EmployeeLoginViewController.swift; sourceTree = "<group>"; };
+		49507CB41C0062A6003C326B /* JobOfEmployeeListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JobOfEmployeeListViewController.swift; path = Controller/JobOfEmployeeListViewController.swift; sourceTree = "<group>"; };
+		495202041C12CCC6004B3836 /* EmployeeHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EmployeeHelper.swift; path = Helper/EmployeeHelper.swift; sourceTree = "<group>"; };
+		495202061C12D00E004B3836 /* MasterDataHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MasterDataHelper.swift; path = Helper/MasterDataHelper.swift; sourceTree = "<group>"; };
+		495202081C12D369004B3836 /* EmployerHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EmployerHelper.swift; path = Helper/EmployerHelper.swift; sourceTree = "<group>"; };
+		4967E74F1E802A9900E96969 /* InsuredPresentDayListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = InsuredPresentDayListViewController.swift; path = Controller/InsuredPresentDayListViewController.swift; sourceTree = "<group>"; };
+		4967E7511E80301800E96969 /* Storyboard_Registration.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard_Registration.storyboard; sourceTree = "<group>"; };
+		49796D491E3DE14D00C8A434 /* InsuredRegulationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = InsuredRegulationViewController.swift; path = Controller/InsuredRegulationViewController.swift; sourceTree = "<group>"; };
+		4979753E1C1EE03800D5A5BF /* EGAErrorMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EGAErrorMessage.swift; path = Helper/EGAErrorMessage.swift; sourceTree = "<group>"; };
+		4985DAAC1E23EED400A4BE5D /* InternationalJob_Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = InternationalJob_Assets.xcassets; sourceTree = "<group>"; };
+		4985DAAE1E23EFC100A4BE5D /* Insured_Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Insured_Assets.xcassets; sourceTree = "<group>"; };
+		4985DAB01E23F93500A4BE5D /* InternationalJobMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = InternationalJobMenuViewController.swift; path = Controller/InternationalJobMenuViewController.swift; sourceTree = "<group>"; };
+		498ED4931C159ABD00DC85EE /* MemberHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MemberHelper.swift; path = Helper/MemberHelper.swift; sourceTree = "<group>"; };
+		498F44061BF84FCD0007FC7C /* ServiceConstant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ServiceConstant.swift; path = Helper/ServiceConstant.swift; sourceTree = "<group>"; };
+		499AC6991C3199A500FD5B57 /* CustomTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomTextField.swift; path = Helper/CustomTextField.swift; sourceTree = "<group>"; };
+		499AC69B1C319A6B00FD5B57 /* CustomUILabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomUILabel.swift; path = Helper/CustomUILabel.swift; sourceTree = "<group>"; };
+		499BE4091C0CAC560014753D /* EmployeeLoginViewController_2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EmployeeLoginViewController_2.swift; path = Controller/EmployeeLoginViewController_2.swift; sourceTree = "<group>"; };
+		49A43BE91C19DF8600FA4CE3 /* JobDetailForApplyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JobDetailForApplyViewController.swift; path = Controller/JobDetailForApplyViewController.swift; sourceTree = "<group>"; };
+		49A75E8E1BF8EE180013FCDA /* SOAPServiceHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SOAPServiceHelper.swift; path = Helper/SOAPServiceHelper.swift; sourceTree = "<group>"; };
+		49BD24F51BF9979100991A44 /* JSONHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JSONHelper.swift; path = Helper/JSONHelper.swift; sourceTree = "<group>"; };
+		49BD24F81BF9BEB100991A44 /* JobListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JobListCell.swift; path = Object/JobListCell.swift; sourceTree = "<group>"; };
+		49BD24FA1BF9C1DA00991A44 /* JobDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JobDetailViewController.swift; path = Controller/JobDetailViewController.swift; sourceTree = "<group>"; };
+		49BE4D301BF702E700C6C2DB /* EmployerLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EmployerLoginViewController.swift; path = Controller/EmployerLoginViewController.swift; sourceTree = "<group>"; };
+		49BE4D321BF70F1900C6C2DB /* MainMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainMenuViewController.swift; path = Controller/MainMenuViewController.swift; sourceTree = "<group>"; };
+		49BE4D351BF717EB00C6C2DB /* ConnectionHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ConnectionHelper.swift; path = Helper/ConnectionHelper.swift; sourceTree = "<group>"; };
+		49C1B87B1BD4D02400905173 /* SmartJob.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartJob.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		49C1B87E1BD4D02400905173 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		49C1B8801BD4D02400905173 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		49C1B8831BD4D02400905173 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		49C1B8851BD4D02400905173 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		49C1B8881BD4D02400905173 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		49C1B88A1BD4D02400905173 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49C7EFBA1BFA28C600F57070 /* SearchJobViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SearchJobViewController.swift; path = Controller/SearchJobViewController.swift; sourceTree = "<group>"; };
+		49C7EFBC1BFA3BD200F57070 /* JobSearchObj.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JobSearchObj.swift; path = Object/JobSearchObj.swift; sourceTree = "<group>"; };
+		49C7EFBE1BFA4C2100F57070 /* EmployeeHomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EmployeeHomeViewController.swift; path = Controller/EmployeeHomeViewController.swift; sourceTree = "<group>"; };
+		49C82A121EAC797100256DF2 /* SmartJobOnePasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SmartJobOnePasswordViewController.swift; path = Controller/SmartJobOnePasswordViewController.swift; sourceTree = "<group>"; };
+		49C9FF5F1E29E0790033B1E9 /* AgenciesDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AgenciesDetailViewController.swift; path = Controller/AgenciesDetailViewController.swift; sourceTree = "<group>"; };
+		49C9FF631E2A34CE0033B1E9 /* CompanyListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CompanyListViewController.swift; path = Controller/CompanyListViewController.swift; sourceTree = "<group>"; };
+		49CF414D1C5482EB00E4B20F /* th */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = th; path = th.lproj/Main.strings; sourceTree = "<group>"; };
+		49CF414E1C5482EB00E4B20F /* th */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = th; path = th.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		49D743BF1EA691580009CD43 /* HistoryInsuredListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HistoryInsuredListViewController.swift; path = Controller/HistoryInsuredListViewController.swift; sourceTree = "<group>"; };
+		49D743C11EA694530009CD43 /* HistoryInsuredRegisterCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HistoryInsuredRegisterCell.swift; path = Object/HistoryInsuredRegisterCell.swift; sourceTree = "<group>"; };
+		49DA35781EA33A4D000A8472 /* NationalCompanyCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NationalCompanyCell.swift; path = Object/NationalCompanyCell.swift; sourceTree = "<group>"; };
+		49DA357A1EA34045000A8472 /* CompanyDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CompanyDetailViewController.swift; path = Controller/CompanyDetailViewController.swift; sourceTree = "<group>"; };
+		49DA357C1EA35930000A8472 /* CompanyEmployeeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CompanyEmployeeCell.swift; path = Object/CompanyEmployeeCell.swift; sourceTree = "<group>"; };
+		49DA357E1EA37910000A8472 /* NationalPositionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NationalPositionCell.swift; path = Object/NationalPositionCell.swift; sourceTree = "<group>"; };
+		49DA35801EA37A0C000A8472 /* NationalPositionListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NationalPositionListViewController.swift; path = Controller/NationalPositionListViewController.swift; sourceTree = "<group>"; };
+		49DA35821EA37B65000A8472 /* NationalPostionHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NationalPostionHelper.swift; path = Helper/NationalPostionHelper.swift; sourceTree = "<group>"; };
+		49DA35841EA37D12000A8472 /* WorkAbroadInfoHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WorkAbroadInfoHelper.swift; path = Helper/WorkAbroadInfoHelper.swift; sourceTree = "<group>"; };
+		49DA35871EA37E66000A8472 /* WorkAbroadInfoListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WorkAbroadInfoListViewController.swift; path = Controller/WorkAbroadInfoListViewController.swift; sourceTree = "<group>"; };
+		49DA35891EA37F97000A8472 /* WorkAbroadInfoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WorkAbroadInfoCell.swift; path = Object/WorkAbroadInfoCell.swift; sourceTree = "<group>"; };
+		49DA358B1EA385E3000A8472 /* WorkAbroadInfoDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WorkAbroadInfoDetailViewController.swift; path = Controller/WorkAbroadInfoDetailViewController.swift; sourceTree = "<group>"; };
+		49DA358D1EA3AC2D000A8472 /* NationalHospitalListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NationalHospitalListViewController.swift; path = Controller/NationalHospitalListViewController.swift; sourceTree = "<group>"; };
+		49DA358F1EA3AC47000A8472 /* NationalHospitalDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NationalHospitalDetailViewController.swift; path = Controller/NationalHospitalDetailViewController.swift; sourceTree = "<group>"; };
+		49DA35911EA3AC6A000A8472 /* NationalHospitalCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NationalHospitalCell.swift; path = Object/NationalHospitalCell.swift; sourceTree = "<group>"; };
+		49DA35931EA3B356000A8472 /* NationalHospitalHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NationalHospitalHelper.swift; path = Helper/NationalHospitalHelper.swift; sourceTree = "<group>"; };
+		49DBA0611C02FB39003E0D7D /* EmployeeProfileOrRegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EmployeeProfileOrRegisterViewController.swift; path = Controller/EmployeeProfileOrRegisterViewController.swift; sourceTree = "<group>"; };
+		49DBA0631C0318A9003E0D7D /* AdvanceSearchJobViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AdvanceSearchJobViewController.swift; path = Controller/AdvanceSearchJobViewController.swift; sourceTree = "<group>"; };
+		49E7FF3C1E98E88B00ACFD9B /* ConfirmEmpuiRegistrationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ConfirmEmpuiRegistrationViewController.swift; path = Controller/ConfirmEmpuiRegistrationViewController.swift; sourceTree = "<group>"; };
+		49F1EEDD1C1C5F5D00268ED6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		49F48A991EB7B76D00F31116 /* SmartJob.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SmartJob.entitlements; sourceTree = "<group>"; };
+		49F5DB2E1E8B6C3400714163 /* InsuredProfileOrRegistrationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = InsuredProfileOrRegistrationViewController.swift; path = Controller/InsuredProfileOrRegistrationViewController.swift; sourceTree = "<group>"; };
+		49F5DB301E8B954900714163 /* InsuredPresentDateCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = InsuredPresentDateCell.swift; path = Object/InsuredPresentDateCell.swift; sourceTree = "<group>"; };
+		49F5DB321E8BA93200714163 /* InsurePresentInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = InsurePresentInfoViewController.swift; path = Controller/InsurePresentInfoViewController.swift; sourceTree = "<group>"; };
+		49F6AE641EAA1723006C9BC6 /* NationalJobLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NationalJobLoginViewController.swift; path = Controller/NationalJobLoginViewController.swift; sourceTree = "<group>"; };
+		49FF6C9C1C19BE200042E779 /* SmartJob-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SmartJob-Bridging-Header.h"; sourceTree = "<group>"; };
+		68BD45F3F5D876E9A9D7FF25 /* libPods-SmartJob.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SmartJob.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DE0F1D0E30672C83593D37D /* Pods-SmartJob.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartJob.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SmartJob/Pods-SmartJob.debug.xcconfig"; sourceTree = "<group>"; };
+		B91D1C3B041E2E4201CAD5C0 /* Pods-SmartJob.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartJob.release.xcconfig"; path = "Pods/Target Support Files/Pods-SmartJob/Pods-SmartJob.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		49C1B8781BD4D02400905173 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68C6DBE8E643D917B55B13A5 /* libPods-SmartJob.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		242A37D7B375BE183679A07D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				68BD45F3F5D876E9A9D7FF25 /* libPods-SmartJob.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		491BED7A1BEF088300A6D765 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				49D743BE1EA5F3900009CD43 /* SmartJob */,
+				49DA35861EA37D93000A8472 /* NationalJob */,
+				49C9FF5F1E29E0790033B1E9 /* AgenciesDetailViewController.swift */,
+				49D743BD1EA5F3760009CD43 /* Insured */,
+				4934B9961E34D74000DAEDA9 /* SideMenuView.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		49BD24F71BF9BE8700991A44 /* Object */ = {
+			isa = PBXGroup;
+			children = (
+				49BD24F81BF9BEB100991A44 /* JobListCell.swift */,
+				49C7EFBC1BFA3BD200F57070 /* JobSearchObj.swift */,
+				492E381E1BFB14A600E2C700 /* JobApplyGroupCell.swift */,
+				492E38201BFB556700E2C700 /* EmployeeListCell.swift */,
+				491DB7041C266B660087BC65 /* ShareData.swift */,
+				49F5DB301E8B954900714163 /* InsuredPresentDateCell.swift */,
+				494C615C1E8E19CE00FB7FA0 /* HistoryInsuredPresentDateCell.swift */,
+				49DA35781EA33A4D000A8472 /* NationalCompanyCell.swift */,
+				49DA357C1EA35930000A8472 /* CompanyEmployeeCell.swift */,
+				49DA357E1EA37910000A8472 /* NationalPositionCell.swift */,
+				49DA35891EA37F97000A8472 /* WorkAbroadInfoCell.swift */,
+				49DA35911EA3AC6A000A8472 /* NationalHospitalCell.swift */,
+				49D743C11EA694530009CD43 /* HistoryInsuredRegisterCell.swift */,
+			);
+			name = Object;
+			sourceTree = "<group>";
+		};
+		49BE4D341BF7179900C6C2DB /* Hepler */ = {
+			isa = PBXGroup;
+			children = (
+				491DB6FE1C2553360087BC65 /* KeychainWrapper.h */,
+				491DB6FF1C2553360087BC65 /* KeychainWrapper.m */,
+				49BE4D351BF717EB00C6C2DB /* ConnectionHelper.swift */,
+				498F44061BF84FCD0007FC7C /* ServiceConstant.swift */,
+				49A75E8E1BF8EE180013FCDA /* SOAPServiceHelper.swift */,
+				49BD24F51BF9979100991A44 /* JSONHelper.swift */,
+				495202041C12CCC6004B3836 /* EmployeeHelper.swift */,
+				495202061C12D00E004B3836 /* MasterDataHelper.swift */,
+				495202081C12D369004B3836 /* EmployerHelper.swift */,
+				498ED4931C159ABD00DC85EE /* MemberHelper.swift */,
+				49415D4B1C1821AC007BF2BC /* EGAHelper.swift */,
+				4979753E1C1EE03800D5A5BF /* EGAErrorMessage.swift */,
+				499AC6991C3199A500FD5B57 /* CustomTextField.swift */,
+				499AC69B1C319A6B00FD5B57 /* CustomUILabel.swift */,
+				4934B9901E34A37F00DAEDA9 /* KeyboardLayoutConstraint.swift */,
+				494C61581E8CBA0E00FB7FA0 /* EmpuiHelper.swift */,
+				490463081EA33498001E1E4B /* NationalCompanyHelper.swift */,
+				49DA35821EA37B65000A8472 /* NationalPostionHelper.swift */,
+				49DA35841EA37D12000A8472 /* WorkAbroadInfoHelper.swift */,
+				49DA35931EA3B356000A8472 /* NationalHospitalHelper.swift */,
+				494188561EA4809800D3C25F /* NationalTestPlaceHelper.swift */,
+				4941885A1EA4FCD100D3C25F /* NationalJobHelper.swift */,
+			);
+			name = Hepler;
+			sourceTree = "<group>";
+		};
+		49C1B8721BD4D02400905173 = {
+			isa = PBXGroup;
+			children = (
+				49C1B87D1BD4D02400905173 /* SmartJob */,
+				49C1B87C1BD4D02400905173 /* Products */,
+				CB187C719C4739C7569628F1 /* Pods */,
+				242A37D7B375BE183679A07D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		49C1B87C1BD4D02400905173 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				49C1B87B1BD4D02400905173 /* SmartJob.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		49C1B87D1BD4D02400905173 /* SmartJob */ = {
+			isa = PBXGroup;
+			children = (
+				49F48A991EB7B76D00F31116 /* SmartJob.entitlements */,
+				492A4CA21C215617000AD98B /* supermarket.ttf */,
+				49F1EEDD1C1C5F5D00268ED6 /* GoogleService-Info.plist */,
+				49C1B87E1BD4D02400905173 /* AppDelegate.swift */,
+				49C1B8801BD4D02400905173 /* ViewController.swift */,
+				49C1B8851BD4D02400905173 /* Assets.xcassets */,
+				49C1B8871BD4D02400905173 /* LaunchScreen.storyboard */,
+				49C1B88A1BD4D02400905173 /* Info.plist */,
+				49FF6C9C1C19BE200042E779 /* SmartJob-Bridging-Header.h */,
+				49BD24F71BF9BE8700991A44 /* Object */,
+				49BE4D341BF7179900C6C2DB /* Hepler */,
+				491BED7A1BEF088300A6D765 /* Controller */,
+				4985DAAC1E23EED400A4BE5D /* InternationalJob_Assets.xcassets */,
+				4985DAAE1E23EFC100A4BE5D /* Insured_Assets.xcassets */,
+				4934B9941E34D56000DAEDA9 /* SideMenuView.xib */,
+				49C1B8821BD4D02400905173 /* Main.storyboard */,
+				4967E7511E80301800E96969 /* Storyboard_Registration.storyboard */,
+				494FED081E7E3B8000A8E5E6 /* Storyboard_NationJob.storyboard */,
+				494FED0A1E7E3DE300A8E5E6 /* Storyboard_Insured.storyboard */,
+			);
+			path = SmartJob;
+			sourceTree = "<group>";
+		};
+		49D743BD1EA5F3760009CD43 /* Insured */ = {
+			isa = PBXGroup;
+			children = (
+				4947B58D1E33408F0095795C /* InsuredLoginViewController.swift */,
+				4947B58F1E3347D40095795C /* InsuredRegistrationViewController.swift */,
+				4934B9921E34CA5900DAEDA9 /* OnePasswordForRegistrationViewController.swift */,
+				49796D491E3DE14D00C8A434 /* InsuredRegulationViewController.swift */,
+				49F5DB321E8BA93200714163 /* InsurePresentInfoViewController.swift */,
+				4967E74F1E802A9900E96969 /* InsuredPresentDayListViewController.swift */,
+				49F5DB2E1E8B6C3400714163 /* InsuredProfileOrRegistrationViewController.swift */,
+				494C615A1E8CFC7B00FB7FA0 /* HistoryInsuredPresentDayListViewController.swift */,
+				49E7FF3C1E98E88B00ACFD9B /* ConfirmEmpuiRegistrationViewController.swift */,
+				49D743BF1EA691580009CD43 /* HistoryInsuredListViewController.swift */,
+				492081331EAC541E00A44D5C /* InsuredOnePasswordViewController.swift */,
+				492081351EAC57C600A44D5C /* InsuredCompleteLoginViewController.swift */,
+				4946979C1EBF26CC0090AF0B /* InsurePresentDetailViewController.swift */,
+			);
+			name = Insured;
+			sourceTree = "<group>";
+		};
+		49D743BE1EA5F3900009CD43 /* SmartJob */ = {
+			isa = PBXGroup;
+			children = (
+				49BE4D321BF70F1900C6C2DB /* MainMenuViewController.swift */,
+				491BED7F1BEF1BAB00A6D765 /* JobListViewController.swift */,
+				49BD24FA1BF9C1DA00991A44 /* JobDetailViewController.swift */,
+				49A43BE91C19DF8600FA4CE3 /* JobDetailForApplyViewController.swift */,
+				491BED7B1BEF08E100A6D765 /* EmployeeGroupListViewController.swift */,
+				491BED7D1BEF108B00A6D765 /* EmployeeListViewController.swift */,
+				49C7EFBA1BFA28C600F57070 /* SearchJobViewController.swift */,
+				49DBA0631C0318A9003E0D7D /* AdvanceSearchJobViewController.swift */,
+				492E381A1BFADD8900E2C700 /* ConfirmEmployeeRegisterViewController.swift */,
+				499BE4091C0CAC560014753D /* EmployeeLoginViewController_2.swift */,
+				492E381C1BFAE15600E2C700 /* EmployeeHomeViewController_2.swift */,
+				49507CB21C0052EE003C326B /* EmployeeLoginViewController.swift */,
+				49C7EFBE1BFA4C2100F57070 /* EmployeeHomeViewController.swift */,
+				492468A51BFC372700514EB2 /* EmployeeDetailViewController.swift */,
+				49507CB41C0062A6003C326B /* JobOfEmployeeListViewController.swift */,
+				49DBA0611C02FB39003E0D7D /* EmployeeProfileOrRegisterViewController.swift */,
+				49BE4D301BF702E700C6C2DB /* EmployerLoginViewController.swift */,
+				492870C01BF062D9004CD8D3 /* EmployerHomeViewController.swift */,
+				491C4AFB1E22C1E500F4BF19 /* FirstMenuViewController.swift */,
+				49C82A121EAC797100256DF2 /* SmartJobOnePasswordViewController.swift */,
+			);
+			name = SmartJob;
+			sourceTree = "<group>";
+		};
+		49DA35861EA37D93000A8472 /* NationalJob */ = {
+			isa = PBXGroup;
+			children = (
+				4985DAB01E23F93500A4BE5D /* InternationalJobMenuViewController.swift */,
+				49C9FF631E2A34CE0033B1E9 /* CompanyListViewController.swift */,
+				49DA357A1EA34045000A8472 /* CompanyDetailViewController.swift */,
+				49DA35801EA37A0C000A8472 /* NationalPositionListViewController.swift */,
+				49DA35871EA37E66000A8472 /* WorkAbroadInfoListViewController.swift */,
+				49DA358B1EA385E3000A8472 /* WorkAbroadInfoDetailViewController.swift */,
+				49DA358D1EA3AC2D000A8472 /* NationalHospitalListViewController.swift */,
+				49DA358F1EA3AC47000A8472 /* NationalHospitalDetailViewController.swift */,
+				494188521EA4807000D3C25F /* NationalTestPlaceListViewController.swift */,
+				494188541EA4808200D3C25F /* NationalTestPlaceDetailViewController.swift */,
+				494188581EA4C33500D3C25F /* NationalPositionDetailViewController.swift */,
+				49F6AE641EAA1723006C9BC6 /* NationalJobLoginViewController.swift */,
+				4920812F1EABCE9F00A44D5C /* OnePasswordNationJobViewController.swift */,
+				492081311EAC424F00A44D5C /* NationJobCompleteLoginViewController.swift */,
+			);
+			name = NationalJob;
+			sourceTree = "<group>";
+		};
+		CB187C719C4739C7569628F1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7DE0F1D0E30672C83593D37D /* Pods-SmartJob.debug.xcconfig */,
+				B91D1C3B041E2E4201CAD5C0 /* Pods-SmartJob.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		49C1B87A1BD4D02400905173 /* SmartJob */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49C1B88D1BD4D02400905173 /* Build configuration list for PBXNativeTarget "SmartJob" */;
+			buildPhases = (
+				EB0646FAEE7B3E192FD2B523 /* Check Pods Manifest.lock */,
+				49C1B8771BD4D02400905173 /* Sources */,
+				49C1B8781BD4D02400905173 /* Frameworks */,
+				49C1B8791BD4D02400905173 /* Resources */,
+				8FB718617BDD0814EBD3826F /* Embed Pods Frameworks */,
+				97E471E891D93ABEBCFE244A /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmartJob;
+			productName = SmartJob;
+			productReference = 49C1B87B1BD4D02400905173 /* SmartJob.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		49C1B8731BD4D02400905173 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 0700;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = th.go.doe.smartjob;
+				TargetAttributes = {
+					49C1B87A1BD4D02400905173 = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = Q6X97758QA;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 49C1B8761BD4D02400905173 /* Build configuration list for PBXProject "SmartJob" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 49C1B8721BD4D02400905173;
+			productRefGroup = 49C1B87C1BD4D02400905173 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				49C1B87A1BD4D02400905173 /* SmartJob */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		49C1B8791BD4D02400905173 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4985DAAD1E23EED400A4BE5D /* InternationalJob_Assets.xcassets in Resources */,
+				4917F8451C229F6F0083C88E /* supermarket.ttf in Resources */,
+				4967E7521E80301800E96969 /* Storyboard_Registration.storyboard in Resources */,
+				49C1B8891BD4D02400905173 /* LaunchScreen.storyboard in Resources */,
+				49F1EEDE1C1C5F5D00268ED6 /* GoogleService-Info.plist in Resources */,
+				49C1B8861BD4D02400905173 /* Assets.xcassets in Resources */,
+				4985DAAF1E23EFC100A4BE5D /* Insured_Assets.xcassets in Resources */,
+				4934B9951E34D56000DAEDA9 /* SideMenuView.xib in Resources */,
+				49C1B8841BD4D02400905173 /* Main.storyboard in Resources */,
+				494FED0B1E7E3DE300A8E5E6 /* Storyboard_Insured.storyboard in Resources */,
+				494FED091E7E3B8000A8E5E6 /* Storyboard_NationJob.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8FB718617BDD0814EBD3826F /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SmartJob/Pods-SmartJob-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		97E471E891D93ABEBCFE244A /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SmartJob/Pods-SmartJob-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EB0646FAEE7B3E192FD2B523 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		49C1B8771BD4D02400905173 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				495202071C12D00E004B3836 /* MasterDataHelper.swift in Sources */,
+				492E381F1BFB14A600E2C700 /* JobApplyGroupCell.swift in Sources */,
+				4934B9931E34CA5900DAEDA9 /* OnePasswordForRegistrationViewController.swift in Sources */,
+				49BE4D331BF70F1900C6C2DB /* MainMenuViewController.swift in Sources */,
+				49DA35831EA37B65000A8472 /* NationalPostionHelper.swift in Sources */,
+				4947B58E1E33408F0095795C /* InsuredLoginViewController.swift in Sources */,
+				499BE40A1C0CAC560014753D /* EmployeeLoginViewController_2.swift in Sources */,
+				491DB7001C2553360087BC65 /* KeychainWrapper.m in Sources */,
+				495202051C12CCC6004B3836 /* EmployeeHelper.swift in Sources */,
+				491BED7C1BEF08E100A6D765 /* EmployeeGroupListViewController.swift in Sources */,
+				494188531EA4807000D3C25F /* NationalTestPlaceListViewController.swift in Sources */,
+				499AC69A1C3199A500FD5B57 /* CustomTextField.swift in Sources */,
+				49507CB51C0062A6003C326B /* JobOfEmployeeListViewController.swift in Sources */,
+				492081321EAC424F00A44D5C /* NationJobCompleteLoginViewController.swift in Sources */,
+				49DA358E1EA3AC2D000A8472 /* NationalHospitalListViewController.swift in Sources */,
+				49DA35921EA3AC6A000A8472 /* NationalHospitalCell.swift in Sources */,
+				49C82A131EAC797100256DF2 /* SmartJobOnePasswordViewController.swift in Sources */,
+				492E381B1BFADD8900E2C700 /* ConfirmEmployeeRegisterViewController.swift in Sources */,
+				49DA35851EA37D12000A8472 /* WorkAbroadInfoHelper.swift in Sources */,
+				49BE4D311BF702E700C6C2DB /* EmployerLoginViewController.swift in Sources */,
+				49DA35791EA33A4D000A8472 /* NationalCompanyCell.swift in Sources */,
+				494C61591E8CBA0E00FB7FA0 /* EmpuiHelper.swift in Sources */,
+				491BED7E1BEF108B00A6D765 /* EmployeeListViewController.swift in Sources */,
+				49C9FF641E2A34CE0033B1E9 /* CompanyListViewController.swift in Sources */,
+				49BD24F91BF9BEB100991A44 /* JobListCell.swift in Sources */,
+				492468A61BFC372700514EB2 /* EmployeeDetailViewController.swift in Sources */,
+				498ED4941C159ABD00DC85EE /* MemberHelper.swift in Sources */,
+				49F5DB331E8BA93200714163 /* InsurePresentInfoViewController.swift in Sources */,
+				492870C11BF062D9004CD8D3 /* EmployerHomeViewController.swift in Sources */,
+				49F5DB311E8B954900714163 /* InsuredPresentDateCell.swift in Sources */,
+				49507CB31C0052EE003C326B /* EmployeeLoginViewController.swift in Sources */,
+				4934B9971E34D74000DAEDA9 /* SideMenuView.swift in Sources */,
+				49D743C01EA691580009CD43 /* HistoryInsuredListViewController.swift in Sources */,
+				498F44071BF84FCD0007FC7C /* ServiceConstant.swift in Sources */,
+				491BED801BEF1BAB00A6D765 /* JobListViewController.swift in Sources */,
+				491DB7051C266B660087BC65 /* ShareData.swift in Sources */,
+				49DA357F1EA37910000A8472 /* NationalPositionCell.swift in Sources */,
+				4946979D1EBF26CC0090AF0B /* InsurePresentDetailViewController.swift in Sources */,
+				49A43BEA1C19DF8600FA4CE3 /* JobDetailForApplyViewController.swift in Sources */,
+				492081341EAC541E00A44D5C /* InsuredOnePasswordViewController.swift in Sources */,
+				4934B9911E34A37F00DAEDA9 /* KeyboardLayoutConstraint.swift in Sources */,
+				4947B5901E3347D40095795C /* InsuredRegistrationViewController.swift in Sources */,
+				49C9FF601E29E0790033B1E9 /* AgenciesDetailViewController.swift in Sources */,
+				492E381D1BFAE15600E2C700 /* EmployeeHomeViewController_2.swift in Sources */,
+				49A75E8F1BF8EE180013FCDA /* SOAPServiceHelper.swift in Sources */,
+				494188551EA4808200D3C25F /* NationalTestPlaceDetailViewController.swift in Sources */,
+				49DA358C1EA385E3000A8472 /* WorkAbroadInfoDetailViewController.swift in Sources */,
+				492081301EABCE9F00A44D5C /* OnePasswordNationJobViewController.swift in Sources */,
+				49DA35811EA37A0C000A8472 /* NationalPositionListViewController.swift in Sources */,
+				49C7EFBD1BFA3BD200F57070 /* JobSearchObj.swift in Sources */,
+				494188591EA4C33500D3C25F /* NationalPositionDetailViewController.swift in Sources */,
+				49DA357D1EA35930000A8472 /* CompanyEmployeeCell.swift in Sources */,
+				49BD24FB1BF9C1DA00991A44 /* JobDetailViewController.swift in Sources */,
+				4941885B1EA4FCD100D3C25F /* NationalJobHelper.swift in Sources */,
+				49DBA0641C0318A9003E0D7D /* AdvanceSearchJobViewController.swift in Sources */,
+				49C7EFBF1BFA4C2100F57070 /* EmployeeHomeViewController.swift in Sources */,
+				49DA35901EA3AC47000A8472 /* NationalHospitalDetailViewController.swift in Sources */,
+				49415D4C1C1821AC007BF2BC /* EGAHelper.swift in Sources */,
+				49F5DB2F1E8B6C3400714163 /* InsuredProfileOrRegistrationViewController.swift in Sources */,
+				49DA358A1EA37F97000A8472 /* WorkAbroadInfoCell.swift in Sources */,
+				49E7FF3D1E98E88B00ACFD9B /* ConfirmEmpuiRegistrationViewController.swift in Sources */,
+				49C7EFBB1BFA28C600F57070 /* SearchJobViewController.swift in Sources */,
+				49796D4A1E3DE14D00C8A434 /* InsuredRegulationViewController.swift in Sources */,
+				49C1B8811BD4D02400905173 /* ViewController.swift in Sources */,
+				49DA35881EA37E66000A8472 /* WorkAbroadInfoListViewController.swift in Sources */,
+				49F6AE651EAA1723006C9BC6 /* NationalJobLoginViewController.swift in Sources */,
+				491C4AFC1E22C1E500F4BF19 /* FirstMenuViewController.swift in Sources */,
+				49DA35941EA3B356000A8472 /* NationalHospitalHelper.swift in Sources */,
+				492081361EAC57C600A44D5C /* InsuredCompleteLoginViewController.swift in Sources */,
+				49BD24F61BF9979100991A44 /* JSONHelper.swift in Sources */,
+				49DBA0621C02FB39003E0D7D /* EmployeeProfileOrRegisterViewController.swift in Sources */,
+				49D743C21EA694530009CD43 /* HistoryInsuredRegisterCell.swift in Sources */,
+				495202091C12D369004B3836 /* EmployerHelper.swift in Sources */,
+				490463091EA33498001E1E4B /* NationalCompanyHelper.swift in Sources */,
+				4985DAB11E23F93500A4BE5D /* InternationalJobMenuViewController.swift in Sources */,
+				499AC69C1C319A6B00FD5B57 /* CustomUILabel.swift in Sources */,
+				49C1B87F1BD4D02400905173 /* AppDelegate.swift in Sources */,
+				492E38211BFB556700E2C700 /* EmployeeListCell.swift in Sources */,
+				4979753F1C1EE03800D5A5BF /* EGAErrorMessage.swift in Sources */,
+				494C615B1E8CFC7B00FB7FA0 /* HistoryInsuredPresentDayListViewController.swift in Sources */,
+				494C615D1E8E19CF00FB7FA0 /* HistoryInsuredPresentDateCell.swift in Sources */,
+				4967E7501E802A9900E96969 /* InsuredPresentDayListViewController.swift in Sources */,
+				49BE4D361BF717EB00C6C2DB /* ConnectionHelper.swift in Sources */,
+				49DA357B1EA34045000A8472 /* CompanyDetailViewController.swift in Sources */,
+				494188571EA4809800D3C25F /* NationalTestPlaceHelper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		49C1B8821BD4D02400905173 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49C1B8831BD4D02400905173 /* Base */,
+				49CF414D1C5482EB00E4B20F /* th */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		49C1B8871BD4D02400905173 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49C1B8881BD4D02400905173 /* Base */,
+				49CF414E1C5482EB00E4B20F /* th */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		49C1B88B1BD4D02400905173 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Kris Konkaew (Q6X97758QA)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Kris Konkaew (Q6X97758QA)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		49C1B88C1BD4D02400905173 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Kris Konkaew (Q6X97758QA)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Kris Konkaew (Q6X97758QA)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		49C1B88E1BD4D02400905173 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DE0F1D0E30672C83593D37D /* Pods-SmartJob.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SmartJob/SmartJob.entitlements;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = Q6X97758QA;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = SmartJob/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = th.go.doe.smartjob.SmartJob;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "SmartJob/SmartJob-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		49C1B88F1BD4D02400905173 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B91D1C3B041E2E4201CAD5C0 /* Pods-SmartJob.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SmartJob/SmartJob.entitlements;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = Q6X97758QA;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = SmartJob/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = th.go.doe.smartjob.SmartJob;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "SmartJob/SmartJob-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		49C1B8761BD4D02400905173 /* Build configuration list for PBXProject "SmartJob" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49C1B88B1BD4D02400905173 /* Debug */,
+				49C1B88C1BD4D02400905173 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49C1B88D1BD4D02400905173 /* Build configuration list for PBXNativeTarget "SmartJob" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49C1B88E1BD4D02400905173 /* Debug */,
+				49C1B88F1BD4D02400905173 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 49C1B8731BD4D02400905173 /* Project object */;
+}
